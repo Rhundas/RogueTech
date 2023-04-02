@@ -6,7 +6,7 @@
       }
     ],
     "BonusDescriptions": [
-      "WpnHeat: +50%",
+      "WpnHeat: +25%",
       "IsLaser",
       "WeaponAttachmentCompatible: Laser Insulator"
     ],
@@ -30,7 +30,7 @@
   ],
   "AmmoCategory": "NotSet",
   "StartingAmmoCapacity": 0,
-  "HeatGenerated": 13,
+  "HeatGenerated": 12,
   "Damage": 25,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,

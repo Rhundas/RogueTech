@@ -6,7 +6,7 @@
       }
     ],
     "BonusDescriptions": [
-      "WpnHeat: +50%",
+      "WpnHeat: +25%",
       "IsLaser",
       "WeaponAttachmentCompatible: Laser Insulator",
       "AAFactor: 10%"
@@ -31,7 +31,7 @@
   ],
   "AmmoCategory": "NotSet",
   "StartingAmmoCapacity": 0,
-  "HeatGenerated": 42,
+  "HeatGenerated": 30,
   "Damage": 40,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
@@ -68,7 +68,7 @@
     "UIName": "Large Laser Tronel",
     "Id": "Weapon_Laser_Tronel_Large",
     "Name": "L Laser Tronel",
-    "Details": "Large Lasers exhibit a powerful combination of damage, range, and compactness but generate a substantial amount of heat. Like all Lasers, Large Lasers enjoy a baseline accuracy bonus over other weapons.  The Tronel is a prototype model, and as such generates 50% more heat than a standard Large Laser would.",
+    "Details": "Large Lasers exhibit a powerful combination of damage, range, and compactness but generate a substantial amount of heat. The Tronel is a prototype model, and as such generates 25% more heat than a standard Large Laser would.",
     "Icon": "uixSvgIcon_weapon_Energy"
   },
   "BonusValueA": "",
