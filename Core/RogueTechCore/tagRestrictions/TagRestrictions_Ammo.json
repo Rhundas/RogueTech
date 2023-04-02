@@ -28,6 +28,14 @@
       ]
     },
     {
+      "Tag": "ProtoLRM",
+      "IncompatibleTags": [
+        "ERMissile",
+        "FTLMissile",
+        "LKMissile"
+      ]
+    },
+    {
       "Tag": "PRifleAmmo.RightArm",
       "RequiredTags": [
         "PRifle.RightArm"
