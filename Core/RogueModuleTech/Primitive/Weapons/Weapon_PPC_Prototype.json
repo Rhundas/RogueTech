@@ -61,9 +61,9 @@
     "Purchasable": true,
     "Manufacturer": "Magna",
     "Model": "Particle Projector Cannon",
-    "UIName": "PPC [Prototype]",
+    "UIName": "PPC (Prototype)",
     "Id": "Weapon_PPC_Prototype",
-    "Name": "PPC [Prototype]",
+    "Name": "PPC (Prototype)",
     "Details": "An early prototype of the Particle Projector Cannon (PPC). Its performance is very similar to the later mass produced versions, but it suffers from considerably worse heat build-up.",
     "Icon": "PPC"
   },
