@@ -6,7 +6,7 @@
       }
     ],
     "BonusDescriptions": [
-      "WpnAccuracy: -1",
+      "WpnHeat: +50%",
       "IsLaser",
       "WeaponAttachmentCompatible: Laser Insulator"
     ],
@@ -30,14 +30,14 @@
   ],
   "AmmoCategory": "NotSet",
   "StartingAmmoCapacity": 0,
-  "HeatGenerated": 11,
+  "HeatGenerated": 13,
   "Damage": 25,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
   "EvasivePipsIgnored": 0,
   "DamageVariance": 0,
   "HeatDamage": 0,
-  "AccuracyModifier": 1,
+  "AccuracyModifier": 0,
   "CriticalChanceMultiplier": 1,
   "APArmorShardsMod": 0.1,
   "APMaxArmorThickness": 30.0,
@@ -67,7 +67,7 @@
     "UIName": "Medium Laser Agra",
     "Id": "Weapon_Laser_Agra_Medium",
     "Name": "M Laser Agra",
-    "Details": "Medium Lasers are lightweight with respectable damage. Because of this, at least one can be found mounted on most units that cross the battlefield. Unlike standard Medium Lasers, the Argra 27C suffered from a glitch when syncing with targeting computers causing it to be less accurate.",
+    "Details": "Medium Lasers are lightweight with respectable damage. Because of this, at least one can be found mounted on most units that cross the battlefield. Unlike modern lasers, the prototype Agra 27C suffered from higher heat build-up for no additional benefit.",
     "Icon": "uixSvgIcon_weapon_Energy"
   },
   "BonusValueA": "",
