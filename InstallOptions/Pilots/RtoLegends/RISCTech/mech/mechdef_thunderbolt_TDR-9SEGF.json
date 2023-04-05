@@ -177,6 +177,20 @@
       "DamageLevel": "Functional"
     },
     {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Special_AddOn_Exchanger_Plus",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Special_AddOn_AdvancedOptics_Mk2",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
       "MountedLocation": "Head",
       "ComponentDefID": "Gear_Cockpit_LifeSupportA_Tactics",
       "ComponentDefType": "Upgrade",
