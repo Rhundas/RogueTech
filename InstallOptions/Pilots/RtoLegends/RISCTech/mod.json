@@ -8,7 +8,7 @@
     "Contact": "no",
     "DependsOn": [
       "RISCTech",
-      "RTO Legends Mechs"
+      "Roguetech Online Movers & Shakers"
     ],
     "ConflictsWith": [],
     "Manifest": [
