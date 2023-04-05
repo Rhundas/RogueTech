@@ -44,13 +44,12 @@
   "ChassisTags": {
     "items": [
       "SLDFMech",
-      "LegendaryMech",
       "UniqueMech",
       "skip_hardpoint"
     ],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Heavy Skirmisher & Brawler",
+  "StockRole": "Legendary BattleMech",
   "YangsThoughts": "The personal BattleMech of legendary MechWarrior Kommodore Gerheardt Forsythe, callsign \"MiG\".",
   "MovementCapDefID": "movedef_heavymech",
   "PathingCapDefID": "pathingdef_heavy",
