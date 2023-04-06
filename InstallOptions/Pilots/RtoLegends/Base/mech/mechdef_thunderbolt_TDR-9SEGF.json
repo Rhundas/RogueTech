@@ -12,7 +12,7 @@
       "unit_advanced",
       "unit_bracket_med",
       "unit_chassis_thunderbolt",
-      "unit_optional_RTO_Legends",
+      "unit_optional_rto_legends",
       "unit_rt_custom",
       "unit_legendary",
       "unit_unique",
@@ -241,7 +241,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_Attachement_ArtemisIV",
+      "ComponentDefID": "Gear_Attachment_ArtemisIV",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
