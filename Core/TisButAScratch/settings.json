@@ -13,6 +13,26 @@
 			"ComponentTag": "RequireNI",
 			"PilotTag": "pilot_NeuralImplants",
 			"PilotTagDisplay": "Requires Neural Implants"
+		},
+		{
+			"ComponentTag": "RequireRTOPilotDas",
+			"PilotTag": "name_Das",
+			"PilotTagDisplay": "RTO Legend (Das) Tag"
+		},
+		{
+			"ComponentTag": "RequireRTOPilotJellyRoll",
+			"PilotTag": "name_JellyRoll",
+			"PilotTagDisplay": "the RTO Legend (Jelly Roll) Tag"
+		},
+		{
+			"ComponentTag": "RequireRTOPilotMiG",
+			"PilotTag": "name_MiG",
+			"PilotTagDisplay": "the RTO Legend (MiG) Tag"
+		},
+		{
+			"ComponentTag": "RequireRTOPilotSlippy",
+			"PilotTag": "name_Slippy",
+			"PilotTagDisplay": "the RTO Legend (Slippy) Tag"
 		}
 	],
 	"internalDmgStatName": "InjureOnStructDmg",

@@ -1,0 +1,10 @@
+{
+  "Settings": [
+    {
+      "Bonus": "RequirePilot",
+      "Short": "Only {0}",
+      "Long": "Only {0}",
+      "Full": "Unit can only be piloted by {0}"
+    }
+  ]
+}
