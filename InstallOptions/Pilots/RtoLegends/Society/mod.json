@@ -1,0 +1,24 @@
+{
+    "Name": "RTO Legends Mechs Society",
+    "Enabled": true,
+    "Version": "0.1.0",
+    "Description": "Contains Units for RTO Legend Pilots + Society",
+    "Author": "Das",
+    "Website": "",
+    "Contact": "no",
+    "DependsOn": [
+      "Rogue Society",
+      "Roguetech Online Movers & Shakers"
+    ],
+    "ConflictsWith": [],
+    "Manifest": [
+        {
+            "Type": "MechDef",
+            "Path": "mech"
+        },
+        {
+            "Type": "ChassisDef",
+            "Path": "chassis"
+        }
+    ]
+}
