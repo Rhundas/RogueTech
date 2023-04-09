@@ -5,6 +5,7 @@
     "quirkNames": [
       "Quirk_ImprovedComms",
       "Quirk_CommandMech",
+      "Quirk_CommandMech_RTO_MiG",
       "Quirk_BattleComputer_TC7000",
       "Quirk_BattleComputer_B2000",
       "Quirk_BattleComputer_SLDF-X"
