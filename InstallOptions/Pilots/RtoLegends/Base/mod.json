@@ -26,18 +26,6 @@
     {
       "Type": "ChassisDef",
       "Path": "chassis"
-    },
-    {
-			"Type": "UpgradeDef",
-			"Path": "Quirks/Upgrades"
-		},
-		{
-			"Type": "WeaponDef",
-			"Path": "Quirks/Weapons"
-		},
-    {
-			"Type": "MEBonusDescriptions",
-			"Path": "BonusDescriptions"
-		}
+    }
   ]
 }
