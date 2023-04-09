@@ -97,7 +97,7 @@
     "UIName": "Owens",
     "Id": "chassisdef_owens_OW-RT",
     "Name": "Owens",
-    "Details": "The personal BattleMech of legendary MechWarrior Sweeny Papavic, callsign \"Jelly Roll\".\n\n<b><color=#e62e00>Quirk: Improved Sensors</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.1</color></b>\n\n<br><br><color=#FFEF00>Arm Actuator Limits: Omni</color>\n\n",
+    "Details": "The personal OmniMech of legendary MechWarrior Sweeny Papavic, callsign \"Jelly Roll\".\n\n<b><color=#e62e00>Quirk: Improved Sensors</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.1</color></b>\n\n<br><br><color=#FFEF00>Arm Actuator Limits: Omni</color>\n\n",
     "Icon": "owens"
   },
   "VariantName": "OW-RT",
@@ -111,8 +111,8 @@
     ],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Legendary BattleMech",
-  "YangsThoughts": "The personal BattleMech of legendary MechWarrior Sweeny Papavic, callsign \"Jelly Roll\".",
+  "StockRole": "Legendary OmniMech",
+  "YangsThoughts": "The personal OmniMech of legendary MechWarrior Sweeny Papavic, callsign \"Jelly Roll\".",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_owens",
