@@ -1,0 +1,55 @@
+{
+  "id": "AffinityDef_fixed_Tuned_Hydraulics",
+  "affinityType": "Quirk",
+  "affinityData": {
+    "quirkNames": [
+      "Gear_JumpJet_Mechanical_1",
+      "Gear_JumpJet_Mechanical_2",
+      "Gear_JumpJet_Mechanical_3",
+      "Gear_JumpJet_Mechanical_4",
+      "Gear_JumpJet_Mechanical_5",
+      "Gear_JumpJet_Mechanical_6",
+      "Gear_JumpJet_Mechanical_7",
+      "Gear_JumpJet_Mechanical_8",
+      "Gear_JumpJet_Mechanical_9",
+      "Gear_JumpJet_Mechanical_10"
+    ],
+    "affinityLevels": [
+      {
+        "missionsRequired": 150,
+        "levelName": "Tuned Hydraulics",
+        "decription": "+1 Evasion gained from movement",
+        "affinities": [],
+        "effectData": [
+          {
+            "durationData": {
+              "duration": -1,
+              "stackLimit": -1
+            },
+            "targetingData": {
+              "effectTriggerType": "Passive",
+              "specialRules": "NotSet",
+              "effectTargetType": "Creator",
+              "showInTargetPreview": false,
+              "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+              "Id": "MJJAdditionalEvasion",
+              "Name": "Tuned Hydraulics",
+              "Details": "+1 Evasion Gained",
+              "Icon": "AdvancedTC"
+            },
+            "nature": "Buff",
+            "statisticData": {
+              "statName": "EvasivePipsGainedAdditional",
+              "operation": "Int_Add",
+              "modValue": "1",
+              "modType": "System.Int32"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
