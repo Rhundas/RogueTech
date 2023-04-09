@@ -16,7 +16,7 @@
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Quirk_AccurateWeaponCategory_Missiles_RTO_Slippy",
+      "ComponentDefID": "Quirk_AccurateWeaponCategory_Missiles",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": false,
