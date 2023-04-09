@@ -3,7 +3,9 @@
   "affinityType": "Quirk",
   "affinityData": {
     "quirkNames": [
-      "Quirk_AccurateWeaponCategory_Missiles"
+      "Quirk_AccurateWeaponCategory_Missiles",
+      "Quirk_AccurateWeaponCategory_Missiles_RTO_Slippy",
+      "Quirk_AccurateWeaponCategory_Missiles_RTO_JellyRoll"
     ],
     "affinityLevels": [
       {
