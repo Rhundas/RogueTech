@@ -4,8 +4,7 @@
   "affinityData": {
     "quirkNames": [
       "Quirk_Rugged",
-      "Quirk_EasyToMaintain",
-      "Quirk_EasyToMaintain_RTO_Das"
+      "Quirk_EasyToMaintain"
     ],
     "affinityLevels": [
       {
