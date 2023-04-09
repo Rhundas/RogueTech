@@ -16,7 +16,7 @@
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Quirk_EasyToMaintain_RTO_Das",
+      "ComponentDefID": "Quirk_EasyToMaintain",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": false,
