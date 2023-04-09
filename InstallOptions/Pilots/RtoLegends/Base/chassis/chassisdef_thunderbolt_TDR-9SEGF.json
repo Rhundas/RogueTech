@@ -15,7 +15,7 @@
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Quirk_CommandMech",
+      "ComponentDefID": "Quirk_CommandMech_RTO_MiG",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
