@@ -43,7 +43,7 @@
     "UIName": "Owens OW-RT 'Risky Tacos'",
     "Id": "mechdef_owens_OW-RT",
     "Name": "Owens OW-RT 'Risky Tacos'",
-    "Details": "The personal BattleMech of legendary MechWarrior Sweeny Papavic, callsign \"Jelly Roll\".\n\n<b><color=#e62e00>Quirk: Improved Sensors</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.1</color></b>\n\n<br><br><color=#FFEF00>Arm Actuator Limits: Omni</color>\n\n",
+    "Details": "The personal OmniMech of legendary MechWarrior Sweeny Papavic, callsign \"Jelly Roll\".\n\n<b><color=#e62e00>Quirk: Improved Sensors</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.1</color></b>\n\n<br><br><color=#FFEF00>Arm Actuator Limits: Omni</color>\n\n",
     "Icon": "owens"
   },
   "simGameMechPartCost": 784314,
@@ -126,6 +126,11 @@
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_Armor_LightFerroFibrous",
       "ComponentDefType": "Upgrade"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_HeatSinkKit_Double",
+      "ComponentDefType": "HeatSink"
     },
     {
       "MountedLocation": "Head",
