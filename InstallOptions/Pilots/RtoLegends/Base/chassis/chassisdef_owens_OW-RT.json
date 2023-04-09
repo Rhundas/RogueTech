@@ -15,7 +15,7 @@
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Quirk_AccurateWeaponCategory_Missiles_RTO_JellyRoll",
+      "ComponentDefID": "Quirk_AccurateWeaponCategory_Missiles",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": false,
@@ -107,7 +107,6 @@
       "ArmLimitUpperLeft",
       "OmniMech",
       "UniqueMech",
-      "RISCBattleMech",
       "skip_hardpoint"
     ],
     "tagSetSourceFile": ""
