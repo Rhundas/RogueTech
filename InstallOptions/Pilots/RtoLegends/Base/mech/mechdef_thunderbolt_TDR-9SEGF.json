@@ -240,7 +240,7 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "LeftTorso",
+      "MountedLocation": "RightTorso",
       "ComponentDefID": "Gear_Attachment_ArtemisIV",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": 0,
