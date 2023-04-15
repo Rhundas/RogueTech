@@ -1,0 +1,24 @@
+{
+    "Name": "RTO Legends Mechs NuclearWepons",
+    "Enabled": true,
+    "Version": "0.1.0",
+    "Description": "Contains Units for RTO Legend Pilots + NuclearWeapons",
+    "Author": "Das",
+    "Website": "",
+    "Contact": "no",
+    "DependsOn": [
+      "Nuclear Weapons",
+      "Roguetech Online Movers & Shakers"
+    ],
+    "ConflictsWith": [],
+    "Manifest": [
+      {
+      "Type": "MechDef",
+      "Path": "mech"
+      },
+      {
+      "Type": "ChassisDef",
+      "Path": "chassis"
+      }
+    ]
+}
