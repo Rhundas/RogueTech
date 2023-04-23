@@ -31,7 +31,7 @@
     "UIName": "Timber Wolf",
     "Id": "chassisdef_timber_wolf_TW-FK",
     "Name": "Timber Wolf",
-    "Details": "The personal BattleMech of legendary MechWarrior High Khan Fiona Kerensky.\n\n<b><color=#e62e00>Quirk: Experimental TC</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.24</color></b>\n\n<br><br><color=#FFEF00>Arm Actuator Limits: Left Upper, Right Upper</color>",
+    "Details": "The personal BattleMech of legendary MechWarrior High Khan Fiona Kerensky. Custom-built for the High Khan using a combination of Inner Sphere and Society prototype technology, this Timber Wolf functions more like a Clan BattleMech than an OmniMech.\n\n<b><color=#e62e00>Quirk: Experimental TC</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.24</color></b>\n\n<br><br><color=#FFEF00>Arm Actuator Limits: Left Upper, Right Upper</color>",
     "Icon": "Timberwolf"
   },
   "VariantName": "TW-FK",
@@ -46,7 +46,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Legendary BattleMech",
-  "YangsThoughts": "The personal BattleMech of legendary MechWarrior High Khan Fiona Kerensky.",
+  "YangsThoughts": "The personal BattleMech of legendary MechWarrior High Khan Fiona Kerensky. Custom-built for the High Khan using a combination of Inner Sphere and Society prototype technology, this Timber Wolf functions more like a Clan BattleMech than an OmniMech.",
   "MovementCapDefID": "movedef_heavymech",
   "PathingCapDefID": "pathingdef_heavy",
   "HardpointDataDefID": "hardpointdatadef_madcat",
