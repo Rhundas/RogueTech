@@ -1,0 +1,26 @@
+{
+    "Name": "RTO Legends Mechs Heavy Metal",
+    "Enabled": true,
+    "Version": "0.1.0",
+    "Description": "Contains Heavy Metal Units for RTO Legend Pilots",
+    "Author": "Das",
+    "Website": "",
+    "Contact": "no",
+    "DependsOn": [
+      "Rogue Heavy Metal Module",
+      "Roguetech Online Movers & Shakers"
+    ],
+    "ConflictsWith": [],
+    "Manifest": [
+      {
+      "Type": "MechDef",
+      "Path": "mech",
+      "RequiredContentPack": "heavymetal"
+      },
+      {
+      "Type": "ChassisDef",
+      "Path": "chassis",
+      "RequiredContentPack": "heavymetal"
+      }
+    ]
+}
