@@ -112,7 +112,7 @@
     "UIName": "Shrike",
     "Id": "chassisdef_shrike_SRK-ID",
     "Name": "Shrike",
-    "Details": "The personal BattleMech of legendary MechWarrior Svelte Sobral.\n\n<b><color=#e62e00>Quirk: Easy to Pilot</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.34</color></b>\n\n<br><br><color=#FFEF00>Arm Actuator Limit: Left Lower</color>",
+    "Details": "The personal BattleMech of legendary MechWarrior Svelte Sobral. While outwardly resembling the Clan Jade Falcon BattleMech, this version of the Shrike features mostly Inner Sphere and very early Clan technology. It's almost as if the owners were ousted from Clan space before the technology was fully developed...\n\n<b><color=#e62e00>Quirk: Easy to Pilot</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.34</color></b>\n\n<br><br><color=#FFEF00>Arm Actuator Limit: Left Lower</color>",
     "Icon": "Shrike2"
   },
   "VariantName": "SRK-ID",
@@ -123,7 +123,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Legendary BattleMech",
-  "YangsThoughts": "The personal BattleMech of legendary MechWarrior Svelte Sobral.",
+  "YangsThoughts": "The personal BattleMech of legendary MechWarrior Svelte Sobral. While outwardly resembling the Clan Jade Falcon BattleMech, this version of the Shrike features mostly Inner Sphere and very early Clan technology. It's almost as if the owners were ousted from Clan space before the technology was fully developed...",
   "MovementCapDefID": "movedef_assaultmech",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_shrike",
