@@ -28,15 +28,14 @@
             },
             "targetingData": {
               "effectTriggerType": "Passive",
-              "specialRules": "NotSet",
               "effectTargetType": "Creator",
               "showInTargetPreview": false,
               "showInStatusPanel": false
             },
             "effectType": "StatisticEffect",
             "Description": {
-              "Id": "MJJAdditionalEvasion",
-              "Name": "Tuned Hydraulics",
+              "Id": "TunedHydraulicsAffinityAdditionalEvasion",
+              "Name": "Fixed Affinity Tuned Hydraulics: Additional Evasion On Move",
               "Details": "+1 Evasion Gained",
               "Icon": "AdvancedTC"
             },
