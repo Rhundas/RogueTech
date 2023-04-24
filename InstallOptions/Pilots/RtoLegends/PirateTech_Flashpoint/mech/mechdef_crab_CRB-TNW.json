@@ -42,7 +42,7 @@
     "UIName": "Crab CRB-TNW",
     "Id": "mechdef_crab_CRB-TNW",
     "Name": "Crab CRB-TNW",
-    "Details": "The personal BattleMech of legendary MechWarrior Das McEvedy. This unassuming Crab BattleMech houses a monster of an engine. While McEvedy was more commonly seen piloting her Black Knight, it is said that is with the humble Crab her heart truly lay.\n\n<b><color=#e62e00>Quirk: Easy to Maintain</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.04</color></b>\n\n<br><br><color=#FFEF00>Arm Actuator Limits: Left Lower, Right Lower</color>",
+    "Details": "The personal BattleMech of legendary MechWarrior Das McEvedy. This unassuming Crab BattleMech houses a monster of a supercharged 250 XL engine. While McEvedy was more commonly seen piloting her Black Knight, it's said that it is with the humble Crab her heart truly lay.\n\n<b><color=#e62e00>Quirk: Easy to Maintain</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.04</color></b>\n\n<br><br><color=#FFEF00>Arm Actuator Limits: Left Lower, Right Lower</color>",
     "Icon": "uixTxrIcon_crab"
   },
   "simGameMechPartCost": 180816,
