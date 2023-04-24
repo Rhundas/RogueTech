@@ -215,7 +215,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_TargetingTrackingSystem_Evasion",
+      "ComponentDefID": "Gear_TargetingTrackingSystem_Heat",
       "ComponentDefType": "Upgrade"
     },
     {
