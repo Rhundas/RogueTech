@@ -3,6 +3,7 @@
   "affinityType": "Quirk",
   "affinityData": {
     "quirkNames": [
+      "HandHeld_Weapon_Industrial_MiningDrill",
       "Lootable_HandHeld_Melee_Mace_1tons",
       "Lootable_HandHeld_Melee_Mace_2tons",
       "Lootable_HandHeld_Melee_Mace_3tons",
