@@ -37,25 +37,27 @@
   "StartingAmmoCapacity": 0,
   "HeatGenerated": 24,
   "Damage": 56,
+  "HeatDamage": 0,
+  "Instability": 10,
+  "DamageVariance": 0,
+  "AccuracyModifier": 0,
+  "EvasivePipsIgnored": 0,
+  "RefireModifier": 3,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
-  "EvasivePipsIgnored": 0,
-  "DamageVariance": 0,
-  "HeatDamage": 0,
-  "AccuracyModifier": 0,
   "CriticalChanceMultiplier": 1,
   "APArmorShardsMod": 1,
   "APMaxArmorThickness": 112,
   "APCriticalChanceMultiplier": 0.28,
   "AOECapable": false,
-  "IndirectFireCapable": false,
-  "RefireModifier": 3,
   "ShotsWhenFired": 3,
   "ProjectilesPerShot": 1,
-  "AttackRecoil": 4,
-  "Instability": 10,
   "ImprovedBallistic": true,
+  "IndirectFireCapable": false,
+  "GunneryJammingMult": 0.01,
+  "GunneryJammingBase": 1,
   "FireTerrainChance": 0.05,
+  "AttackRecoil": 4,
   "WeaponEffectID": "WeaponEffect-Weapon_AC10_Single",
   "Description": {
     "Cost": 1340000,
@@ -85,13 +87,10 @@
       "Id": "x1",
       "UIName": "x1",
       "isBaseMode": false,
+      "HeatGenerated": -16,
       "ShotsWhenFired": -2,
       "RefireModifier": -2,
-      "HeatGenerated": -16,
-      "AIHitChanceCap": 0.1,
       "FlatJammingChance": 0.04,
-      "GunneryJammingMult": 0.01,
-      "GunneryJammingBase": 1,
       "statusEffects": [
         {
           "durationData": {
@@ -104,6 +103,7 @@
             "showInStatusPanel": false
           },
           "effectType": "StatisticEffect",
+          "nature": "Buff",
           "Description": {
             "Id": "WeaponEffect-SelfknockdownCheck_OnFire",
             "Name": "Rotary AC/10 (C) / x1: Increased Self Knockdown on Fire",
@@ -115,22 +115,19 @@
             "operation": "Float_Add",
             "modValue": "0.03",
             "modType": "System.Single"
-          },
-          "nature": "Buff"
+          }
         }
-      ]
+      ],
+      "AIHitChanceCap": 0.1
     },
     {
       "Id": "x2",
       "UIName": "x2",
       "isBaseMode": false,
+      "HeatGenerated": -8,
       "ShotsWhenFired": -1,
       "RefireModifier": -1,
-      "HeatGenerated": -8,
-      "AIHitChanceCap": 0.15,
       "FlatJammingChance": 0.08,
-      "GunneryJammingMult": 0.01,
-      "GunneryJammingBase": 1,
       "statusEffects": [
         {
           "durationData": {
@@ -143,6 +140,7 @@
             "showInStatusPanel": false
           },
           "effectType": "StatisticEffect",
+          "nature": "Buff",
           "Description": {
             "Id": "WeaponEffect-SelfknockdownCheck_OnFire",
             "Name": "Rotary AC/10 (C) / x2: Increased Self Knockdown on Fire",
@@ -154,19 +152,16 @@
             "operation": "Float_Add",
             "modValue": "0.06",
             "modType": "System.Single"
-          },
-          "nature": "Buff"
+          }
         }
-      ]
+      ],
+      "AIHitChanceCap": 0.15
     },
     {
       "Id": "x3",
       "UIName": "x3",
       "isBaseMode": true,
-      "AIHitChanceCap": 0.2,
       "FlatJammingChance": 0.12,
-      "GunneryJammingMult": 0.01,
-      "GunneryJammingBase": 1,
       "statusEffects": [
         {
           "durationData": {
@@ -179,6 +174,7 @@
             "showInStatusPanel": false
           },
           "effectType": "StatisticEffect",
+          "nature": "Buff",
           "Description": {
             "Id": "WeaponEffect-SelfknockdownCheck_OnFire",
             "Name": "Rotary AC/10 (C) / x3: Increased Self Knockdown on Fire",
@@ -190,22 +186,19 @@
             "operation": "Float_Add",
             "modValue": "0.09",
             "modType": "System.Single"
-          },
-          "nature": "Buff"
+          }
         }
-      ]
+      ],
+      "AIHitChanceCap": 0.2
     },
     {
       "Id": "x4",
       "UIName": "x4",
       "isBaseMode": false,
+      "HeatGenerated": 8,
       "ShotsWhenFired": 1,
       "RefireModifier": 1,
-      "HeatGenerated": 8,
-      "AIHitChanceCap": 0.28,
       "FlatJammingChance": 0.16,
-      "GunneryJammingMult": 0.01,
-      "GunneryJammingBase": 1,
       "statusEffects": [
         {
           "durationData": {
@@ -218,6 +211,7 @@
             "showInStatusPanel": false
           },
           "effectType": "StatisticEffect",
+          "nature": "Buff",
           "Description": {
             "Id": "WeaponEffect-SelfknockdownCheck_OnFire",
             "Name": "Rotary AC/10 (C) / x4: Increased Self Knockdown on Fire",
@@ -229,22 +223,19 @@
             "operation": "Float_Add",
             "modValue": "0.12",
             "modType": "System.Single"
-          },
-          "nature": "Buff"
+          }
         }
-      ]
+      ],
+      "AIHitChanceCap": 0.28
     },
     {
       "Id": "x5",
       "UIName": "x5",
       "isBaseMode": false,
+      "HeatGenerated": 16,
       "ShotsWhenFired": 2,
       "RefireModifier": 2,
-      "HeatGenerated": 16,
-      "AIHitChanceCap": 0.3,
       "FlatJammingChance": 0.2,
-      "GunneryJammingMult": 0.01,
-      "GunneryJammingBase": 1,
       "statusEffects": [
         {
           "durationData": {
@@ -257,6 +248,7 @@
             "showInStatusPanel": false
           },
           "effectType": "StatisticEffect",
+          "nature": "Buff",
           "Description": {
             "Id": "WeaponEffect-SelfknockdownCheck_OnFire",
             "Name": "Rotary AC/10 (C) / x5: Increased Self Knockdown on Fire",
@@ -268,22 +260,19 @@
             "operation": "Float_Add",
             "modValue": "0.15",
             "modType": "System.Single"
-          },
-          "nature": "Buff"
+          }
         }
-      ]
+      ],
+      "AIHitChanceCap": 0.3
     },
     {
       "Id": "x6",
       "UIName": "x6",
       "isBaseMode": false,
+      "HeatGenerated": 24,
       "ShotsWhenFired": 3,
       "RefireModifier": 3,
-      "HeatGenerated": 24,
-      "AIHitChanceCap": 0.4,
       "FlatJammingChance": 0.24,
-      "GunneryJammingMult": 0.01,
-      "GunneryJammingBase": 1,
       "statusEffects": [
         {
           "durationData": {
@@ -296,6 +285,7 @@
             "showInStatusPanel": false
           },
           "effectType": "StatisticEffect",
+          "nature": "Buff",
           "Description": {
             "Id": "WeaponEffect-SelfknockdownCheck_OnFire",
             "Name": "Rotary AC/10 (C) / x6: Increased Self Knockdown on Fire",
@@ -307,10 +297,10 @@
             "operation": "Float_Add",
             "modValue": "0.18",
             "modType": "System.Single"
-          },
-          "nature": "Buff"
+          }
         }
-      ]
+      ],
+      "AIHitChanceCap": 0.4
     }
   ],
   "statusEffects": [
@@ -326,6 +316,7 @@
         "showInStatusPanel": false
       },
       "effectType": "StatisticEffect",
+      "nature": "Buff",
       "Description": {
         "Id": "AAAFactor",
         "Name": "Rotary AC/10 (C): Anti Air Factor",
@@ -337,8 +328,7 @@
         "operation": "Float_Add",
         "modValue": "0.3",
         "modType": "System.Single"
-      },
-      "nature": "Buff"
+      }
     }
   ],
   "ComponentTags": {

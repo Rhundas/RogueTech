@@ -1,10 +1,168 @@
-1.3.X 
+1.3.x
 
-Droppable Thumper Shell - Range Reduced, added AOE damage information to tooltip.
+Shops:
+
+Changes to availability of Battle Armor items in Shops:
+  Faction Shops likelihood of stocking squad types specific to the faction increased.
+  IS Shops will sometimes have Elemental Parts, Clan shops will sometimes have IS parts.
+  Parts are now more randomized rather than always coming in stacks of two.
+  Several previously unavailable BA weapons have been added to shops.
+
+Equipment:
+
+Sensor Identify - New. +5 Advanced Sensors, +5% Sensor Range, +5% Sight Range. Significantly boosts chances of identifying enemy equipment.
+Sensors Energy Range - New. Energy Range +15%, Energy Minimum Range -50%, Advanced Sensors 1.
+
+Sensors Ballistic Range - Range bonus reduced from +20% to +15%
+Sensors Missile Range - Range bonus reduced from +20% to +15%
+Sensors Sniper - Price 125k to 150k
+Sensors Improved Clan - Price 100k to 125k
+
+Improved descriptions of Wheeled Conversion Gear items in Ako's Drones of Syberia flashpooints. Added info about no Stab damage in vehicle modes. Fixed DR description for reward unit in A Boy and His Trashcan.
+
+Weapons:
+
+BoltOn AMS - Ammunition now costs 5 cbills per shot.
+
+
+Fixed Suspicious Cargo type weapons detonating sometimes resulting in a machine gun noise for the rest of the contract. 
+Suspicious Cargo type weapon explosions are now centered on attacking unit not on its target.
+
+Suspicious Cargo - Damage 50 to 100, Instability 25 to 50, AOE damage 120 to 160. AOE Radius 100 to 120. Max armor thickness for TAC 0 to 200. Range 120 to 90.
+Fuel Tank - Damage 20 to 40. AOE Radius 100 to 120. Max Armor Thickness for Tac 0 to 80. Range 120 to 90. Description corrected.
+(Note to team: These changes bring these weapons more in line with the balance of large aircraft bombs.)
+
+
+Mechs:
+
+LAM now all start in Flight mode.
+
+Vehicles:
+
+Misc-
+
+Lightning HCV - Extraneous turret location removed. (Base model with M.Pulse and SRM-4.)
+Light Rocket Carrier - Minor tweaks.
+Vachir Qorchi - Nuke variant's 3d model changed to correct one.
+
+
+Cestrus Hover Tank - Given FTL ammo, Renamed "Cestrus HVT"
+Gallant (2858) - Given FTL ammo
+Gallant (3082) - Given FTL ammo
+Goblin (LRM) - Given FTL ammo
+Hetzer (LRM) - Given FTL ammo
+Heavy TBM/15-LRM/20 Carrier - Given FTL ammo
+Merkava IX - Given FTL ammo
+Rhino FST (EC) - Given FTL ammo
+Sturmfeur - Given FTL ammo
+Sturmfeur (SRM) - Given FTL ammo
+Tufana - Given FTL ammo
+UrbanTank UT-M38 - Given FTL ammo
+
+Rescales-
+
+Augustus - Rescaled
+Axel (All) - Rescaled
+Brunel Dump Truck - Rescaled
+Gulltoppr (All)- Rescaled.
+Hahnunah - Rescaled
+Moltke (All) - Rescaled
+Patton (All) - Rescaled
+Parti-Kill -  Rescaled. + New Icon by DarkKhaos.
+Ranger VV (All) - Rescaled
+Rommel (All) - Rescaled
+Wheeled APC (All)- Rescaled
+Heavy Wheeled APC (All) - Rescaled
+
+WIP - No patchnotes:
+
+Fixed Mk2 Carriers finally?
+Work on Tread Lightly - A combined arms lights only start.
+
+1.3.5
+
+Added Micro Laser Elemental squad to Clan Elemental start lists and shops.
+Added basic Battle Armor squads to Inner Sphere shops. 
+Added random BA partial salvage to shops.
+
+Added brief event following ammo convoy type escorts for the ammo box reward.
+
+New Contract - "Ammunition Convoy" (Hard Version)
+
+Minor dialog fixes in several Escort contracts.
+
+Flying Tigers contract cooldown reduced from 70 to 60 days before it can generate again. This cooldown is shared between all Test Drive type contracts.
+
+Weapons:
+
+RISC Silver Bullet Gauss - Brief: Total Damage 300 to 240. Projectiles per shot reduced from 10 to 6. Damage per projectile increased from 10 to 15. Gains Variable Damage 5. AOE damage per projectile increased from 20 to 25. Max armor thickness for TAC 300 to 270. Instability per projectile from 2.5 to 3.75
+
+Sniper Rifle - Crit chance +100% added, similar to other gauss weapons. Max armor thickness for TAC increased similar to other armor piercing ballistics.
+
+Fixed(?) Suspicious Cargo weapons sometimes not destroying their user.
+
+Units?
+
+Removed "Totem" tag from some units that shouldn't have it. Noteworthy effect: 
+Fixed RISC Urbies being overrepresented as assassination targets in low skull contracts.
+
+Affinities:
+
+"Skilled Sensor Operator" - Affinity linked to Vehicle Crew Compartment, missions required reduced from 80 to 60.
+
+Several vehicle quirks had no linked 40 mission affinity, this has been fixed.
+
+Agile - Now linked to Alacrity: +1 Evasion Generated
+
+Missile Jammer - Now linked to "Can't Touch This": +1 Defense
+
+Improved Communications - Now linked to "High Command": -10% Lance Resolve Costs
+
+Enhanced FPE - Now linked to "Resilience": 40% Crit Resistance
+
+Quick Off the Line - Now linked to "Can't Touch This": +1 Defense
+
+QuikSell - Now linked to "WITNESS ME!": +1 All Pilot Skills
+
+Slippery Customer - Now linked to "Nothing to See Here": +2 Local ECM, -10% Signature
+
+Technical - Now linked to "Obvious Controls": +1 All Pilot Skills
+
+Thermal Sight - Now linked to "I See You": +1 Sensors/Probe Detection, +10% Sensors Range
+
+New Affinities:
+
+Accurate Weapon - Bomb Bay - Linked to "Weapons Bay Mastery": +1 Accuracy and -25% Minimum Range for [Bay] Weapons
+
+Accurate Weapon - Wingmounted - Linked to "Wing Mounted Mastery": -25% Minimum Range and +25% Critical Hit chance for Wing Mounted Weapons
+
+
+Vehicles:
+
+Trident APC (ALL) - Minor Fixes
+
+---------------------------
+1.3.4
+
+Fixed old bug which caused all turrets above Difficulty 15 to be Artillery.
+
+Careers:
+
+Trident APC added to BA Platoon start lists, a durable light APC that caries supplies to rearm the troops it moves.
+
+Vehicles:
 
 WIP For now - Carrier mk2 SRM and LRM
 
 SRM Carrier - Ammo tweaks
+Light Flamer Carrier - Refit, 10 flamers to 8, more armor.
+Harasser (2875) - Ammo changed to Standard flamer.
+Trident TTT-151 - Minor Fixes
+Trident TTT-155 - Minor Fixes
+
+Equipment:
+
+Droppable Thumper Shell - Range Reduced, added AOE damage information to tooltip.
 
 FCS Clan 100k to 85k
 FCS SLDF 125k to 85k

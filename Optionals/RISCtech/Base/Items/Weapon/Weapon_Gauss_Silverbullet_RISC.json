@@ -9,28 +9,29 @@
       }
     ],
     "BonusDescriptions": [
+      "IsRISCSBGauss",
       "AreaOfEffect: 90",
-      "AreaOfEffectDmg: 200",
+      "AreaOfEffectDmg: 150",
       "PipsIgnored: 1",
       "WpnAccuracy: +1",
       "WpnRecoil: 5",
       "WpnCrits: +150%",
+      "VariableDmg: 5",
       "DoesCluster",
       "WeaponClustering: +5",
       "ExplodiumFlat: 20%",
-      "IsRISCSBGauss",
       "AAFactor: 40%",
-      "WeaponExplosionInertAmmo: 15, 2.5, 1.3"
+      "WeaponExplosionInertAmmo: 20, 3.8, 1.9"
     ],
-    "ComponentExplosion": {
-      "ExplosionDamagePerAmmo": 15.0,
-      "HeatDamagePerAmmo": 2.5,
-      "StabilityDamagePerAmmo": 1.25
-    },
     "Flags": [
       "not_broken",
       "not_destroyed"
     ],
+    "ComponentExplosion": {
+      "ExplosionDamagePerAmmo": 20.0,
+      "HeatDamagePerAmmo": 3.75,
+      "StabilityDamagePerAmmo": 1.875
+    },
     "IBLS": {
       "StorageSize": 10
     }
@@ -48,45 +49,45 @@
   "AmmoCategory": "HGAUSS",
   "StartingAmmoCapacity": 0,
   "HeatGenerated": 12,
-  "Damage": 10,
+  "Damage": 15,
+  "HeatDamage": 0,
+  "Instability": 3.75,
+  "DamageVariance": 5,
+  "AccuracyModifier": -1,
+  "EvasivePipsIgnored": 1,
+  "RefireModifier": 5,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
-  "EvasivePipsIgnored": 1,
-  "DamageVariance": 0,
-  "HeatDamage": 0,
-  "AccuracyModifier": -1,
   "CriticalChanceMultiplier": 2.5,
   "APArmorShardsMod": 0.75,
-  "APMaxArmorThickness": 300,
+  "APMaxArmorThickness": 270,
   "APCriticalChanceMultiplier": 0.5,
   "AOECapable": true,
-  "AOEDamage": 20,
-  "AOEHeatDamage": 0,
   "AOERange": 90,
+  "AOEDamage": 25,
   "AOEInstability": 5,
-  "ImprovedBallistic": true,
+  "AOEHeatDamage": 0.01,
+  "ShotsWhenFired": 1,
+  "ProjectilesPerShot": 6,
   "BallisticDamagePerPallet": true,
   "DamageNotDivided": true,
+  "ImprovedBallistic": true,
   "IndirectFireCapable": false,
-  "RefireModifier": 5,
-  "ShotsWhenFired": 1,
-  "ProjectilesPerShot": 10,
   "HitGenerator": "Cluster",
-  "DisableClustering": false,
   "ClusteringModifier": 5,
-  "AttackRecoil": 18,
-  "Instability": 2.5,
-  "FlatJammingChance": 0.2,
+  "DisableClustering": false,
   "GunneryJammingMult": 0.01,
   "GunneryJammingBase": 1,
+  "FlatJammingChance": 0.2,
   "DamageOnJamming": true,
-  "WeaponEffectID": "WeaponEffect-Weapon_LB20X",
-  "firingStartSFX": "AudioEventList_gauss_gauss_shoot",
+  "AttackRecoil": 18,
   "AdditionalImpactVFX": "WFX_ExplosiveSmokeS",
   "AdditionalImpactVFXScaleX": 0.3,
   "AdditionalImpactVFXScaleY": 0.3,
   "AdditionalImpactVFXScaleZ": 0.3,
+  "firingStartSFX": "AudioEventList_gauss_gauss_shoot",
   "AdditionalAudioEffect": "AudioEventList_explosion_explosion_medium",
+  "WeaponEffectID": "WeaponEffect-Weapon_LB20X",
   "Description": {
     "Cost": 1050000,
     "Rarity": 10,
@@ -115,8 +116,8 @@
       "Id": "Cluster",
       "UIName": "Cluster",
       "isBaseMode": true,
-      "HeatMultiplier": 0.1,
-      "APDamageMultiplier": 0.1
+      "HeatMultiplier": 0.1667,
+      "APDamageMultiplier": 0.1667
     }
   ],
   "statusEffects": [
@@ -132,6 +133,7 @@
         "showInStatusPanel": false
       },
       "effectType": "StatisticEffect",
+      "nature": "Buff",
       "Description": {
         "Id": "AAAFactor",
         "Name": "RISC Silver Bullet Gauss: Anti Air Factor",
@@ -143,8 +145,7 @@
         "operation": "Float_Add",
         "modValue": "0.4",
         "modType": "System.Single"
-      },
-      "nature": "Buff"
+      }
     }
   ],
   "ComponentTags": {
