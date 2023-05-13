@@ -26,6 +26,10 @@
     {
       "Type": "ChassisDef",
       "Path": "chassis"
-    }
+    },
+    { 	"Type": "SimGameEventDef",
+			"Path": "events",
+			"AddToDB": true
+		}
   ]
 }

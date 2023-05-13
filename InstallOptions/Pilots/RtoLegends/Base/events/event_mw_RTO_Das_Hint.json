@@ -1,0 +1,377 @@
+{
+  "Description": {
+    "Id": "event_mw_RTO_Das_Hint",
+    "Name": "Musings from McEvedy",
+    "Details": "Words.",
+    "Icon": "uixTxrSpot_MechBay.png"
+  },
+  "Scope": "MechWarrior",
+  "Weight": 100,
+  "Requirements": {
+    "Scope": "MechWarrior",
+    "RequirementTags": {
+      "items":[
+        "name_Das"
+      ],
+      "tagSetSourceFile": "Tags/PilotTags"
+    },
+    "ExclusionTags": {
+      "items": null,
+      "tagSetSourceFile": ""
+    },
+    "RequirementComparisons": null
+  },
+  "AdditionalRequirements": [
+    {
+      "Scope": "Company",
+      "RequirementTags": {
+        "items": null,
+        "tagSetSourceFile": ""
+      },
+      "ExclusionTags": {
+        "items": [
+          "event_RTO_Das_Done",
+          "event_RTO_Das_ShutUp"
+        ],
+        "tagSetSourceFile": "Tags/CompanyTags"
+      },
+      "RequirementComparisons": [
+        {
+          "obj": "Item.MechDef.chassisdef.crab_CRB-27b",
+          "op": "LessThan",
+          "val": 1,
+          "valueConstant": "1"
+        }
+      ]
+    }
+  ],
+  "AdditionalObjects": [],
+  "Options": [
+    {
+      "Description": {
+        "Id": "outcome_0",
+        "Name": "Tell {TGT_MW.Obj} you'll keep an eye out.",
+        "Details": "Acknowledgement - no tag change",
+        "Icon": ""
+      },
+      "RequirementList": [],
+      "ResultSets": [
+        {
+          "Description": {
+            "Id": "outcome_0_0",
+            "Name": "Acknowledged",
+            "Details": "This is the text for the event resolved (outcome 0)",
+            "Icon": ""
+          },
+          "Weight": 100,
+          "Results": [
+            {
+              "Scope": "Company",
+              "Requirements": null,
+              "AddedTags": {
+                "items": [
+                "event_RTO_Das_ShutUp"
+                ],
+                "tagSetSourceFile": "Tags/CompanyTags"
+              },
+              "RemovedTags": {
+                "items": null,
+                "tagSetSourceFile": ""
+              },
+              "Stats": null,
+              "Actions": null,
+              "ForceEvents": null,
+              "TemporaryResult": true,
+              "ResultDuration": 120
+            },
+            {
+              "Scope": "MechWarrior",
+              "Requirements": null,
+              "AddedTags": {
+                "items": null,
+                "tagSetSourceFile": ""
+              },
+              "RemovedTags": {
+                "items": [
+                  "pilot_morale_low"
+                ],
+                "tagSetSourceFile": "Tags/PilotTags"
+              },
+              "Stats": null,
+              "Actions": null,
+              "ForceEvents": null,
+              "TemporaryResult": false,
+              "ResultDuration": 0
+            },
+            {
+              "Scope": "MechWarrior",
+              "Requirements": null,
+              "AddedTags": {
+                "items": [
+                  "pilot_morale_high"
+                ],
+                "tagSetSourceFile": "Tags/PilotTags"
+              },
+              "RemovedTags": {
+                "items": null,
+                "tagSetSourceFile": ""
+              },
+              "Stats": null,
+              "Actions": null,
+              "ForceEvents": null,
+              "TemporaryResult": true,
+              "ResultDuration": 20
+            }
+          ]
+        }
+      ],
+      "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+          "items": null,
+          "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+          "items": null,
+          "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+      }
+    },
+    {
+      "Description": {
+        "Id": "outcome_1",
+        "Name": "Say you don't need reminding",
+        "Details": "Mute the hints",
+        "Icon": ""
+      },
+      "RequirementList": [],
+      "ResultSets": [
+        {
+          "Description": {
+            "Id": "outcome_1_0",
+            "Name": "Acknowledged. Now can it.",
+            "Details": "This is the text for the event muted (outcome 1)",
+            "Icon": ""
+          },
+          "Weight": 100,
+          "Results": [
+            {
+              "Scope": "Company",
+              "Requirements": null,
+              "AddedTags": {
+                "items": [
+                  "event_RTO_Das_ShutUp"
+                ],
+                "tagSetSourceFile": "Tags/CompanyTags"
+              },
+              "RemovedTags": {
+                "items": null,
+                "tagSetSourceFile": ""
+              },
+              "Stats": null,
+              "Actions": null,
+              "ForceEvents": null,
+              "TemporaryResult": false,
+              "ResultDuration": 0
+            }
+          ]
+        }
+      ],
+      "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+          "items": null,
+          "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+          "items": null,
+          "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+      }
+    },
+    {
+      "Description": {
+        "Id": "outcome_2",
+        "Name": "Tell {TGT_MW.Obj} you're not interested in {TGT_MW.Det} idea.",
+        "Details": "[Ends the chain]",
+        "Icon": ""
+      },
+      "RequirementList": [],
+      "ResultSets": [
+        {
+          "Description": {
+            "Id": "outcome_2_0",
+            "Name": "90 day low spirits",
+            "Details": "This is the text for event bad end (outcome 2-0)",
+            "Icon": ""
+          },
+          "Weight": 50,
+          "Results": [
+            {
+              "Scope": "MechWarrior",
+              "Requirements": null,
+              "AddedTags": {
+                "items": null,
+                "tagSetSourceFile": ""
+              },
+              "RemovedTags": {
+                "items": [
+                  "pilot_morale_high"
+                ],
+                "tagSetSourceFile": ""
+              },
+              "Stats": null,
+              "Actions": null,
+              "ForceEvents": null,
+              "TemporaryResult": false,
+              "ResultDuration": 0
+            },
+            {
+              "Scope": "MechWarrior",
+              "Requirements": null,
+              "AddedTags": {
+                "items": [
+                  "pilot_morale_low"
+                ],
+                "tagSetSourceFile": ""
+              },
+              "RemovedTags": {
+                "items": null,
+                "tagSetSourceFile": ""
+              },
+              "Stats": null,
+              "Actions": null,
+              "ForceEvents": null,
+              "TemporaryResult": true,
+              "ResultDuration": 90
+            },
+            {
+              "Scope": "Company",
+              "Requirements": null,
+              "AddedTags": {
+                "items": [
+                  "event_RTO_Das_Done"
+                ],
+                "tagSetSourceFile": "Tags/CompanyTags"
+              },
+              "RemovedTags": {
+                "items": [
+                  "event_RTO_Das_ShutUp"
+                ],
+                "tagSetSourceFile": ""
+              },
+              "Stats": null,
+              "Actions": null,
+              "ForceEvents": null,
+              "TemporaryResult": false,
+              "ResultDuration": 0
+            }
+          ]
+        },
+        {
+          "Description": {
+            "Id": "outcome_2_1",
+            "Name": "Rebellious + 90 day low morale",
+            "Details": "This is the text for event bad end (outcome 2-1)",
+            "Icon": ""
+          },
+          "Weight": 50,
+          "Results": [
+             {
+              "Scope": "MechWarrior",
+              "Requirements": null,
+              "AddedTags": {
+                "items": null,
+                "tagSetSourceFile": ""
+              },
+              "RemovedTags": {
+                "items": [
+                  "pilot_morale_high"
+                ],
+                "tagSetSourceFile": ""
+              },
+              "Stats": null,
+              "Actions": null,
+              "ForceEvents": null,
+              "TemporaryResult": false,
+              "ResultDuration": 0
+            },
+            {
+              "Scope": "MechWarrior",
+              "Requirements": null,
+              "AddedTags": {
+                "items": [
+                  "pilot_morale_low"
+                ],
+                "tagSetSourceFile": ""
+              },
+              "RemovedTags": {
+                "items": null,
+                "tagSetSourceFile": ""
+              },
+              "Stats": null,
+              "Actions": null,
+              "ForceEvents": null,
+              "TemporaryResult": true,
+              "ResultDuration": 90
+            },
+            {
+              "Scope": "MechWarrior",
+              "Requirements": null,
+              "AddedTags": {
+                "items": [
+                  "pilot_rebellious"
+                ],
+                "tagSetSourceFile": "Tags/PilotTags"
+              },
+              "RemovedTags": null,
+              "Stats": null,
+              "Actions": null,
+              "ForceEvents": null,
+              "TemporaryResult": false,
+              "ResultDuration": 0
+            },
+            {
+              "Scope": "Company",
+              "Requirements": null,
+              "AddedTags": {
+                "items": [
+                  "event_RTO_Das_Done"
+                ],
+                "tagSetSourceFile": "Tags/CompanyTags"
+              },
+              "RemovedTags": {
+                "items": [
+                  "event_RTO_Das_ShutUp"
+                ],
+                "tagSetSourceFile": ""
+              },
+              "Stats": null,
+              "Actions": null,
+              "ForceEvents": null,
+              "TemporaryResult": false,
+              "ResultDuration": 0
+            }
+          ]
+        }
+      ],
+      "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+          "items": null,
+          "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+          "items": null,
+          "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+      }
+    }
+  ],
+  "PublishState": "PUBLISHED",
+  "ValidationState": "UNTESTED",
+  "EventType": "NORMAL"
+}
