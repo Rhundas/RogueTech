@@ -1,6 +1,9 @@
 {
   "MechTags": {
     "items": [
+      "BLACKLISTED",
+      "WikiWL",
+      "NOSALVAGE",
       "unit_proxy_model",
       "unit_proxy_icon",
       "unit_generic",
