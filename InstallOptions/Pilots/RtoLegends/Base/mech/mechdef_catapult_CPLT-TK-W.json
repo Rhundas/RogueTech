@@ -38,9 +38,9 @@
     "Commentary": "pilot_Takashi",
     "Manufacturer": "DCMS",
     "Model": "CPLT-TK-W",
-    "UIName": "Catapult CPLT-TK 'Wyvern'",
+    "UIName": "Catapult 'Wyvern'",
     "Id": "mechdef_catapult_CPLT-TK-W",
-    "Name": "Catapult CPLT-TK 'Wyvern'",
+    "Name": "Catapult CPLT-TK",
     "Details": "The personal BattleMech of legendary MechWarrior Takashi Kurita, callsign \"Wyvern\". This mixed-tech Catapult model embodies the DCMS mantra 'death before dishonor', featuring a torso-mounted cockpit that has no ejection systems.\n\n<b><color=#e62e00>Quirk: Accurate Weapon - Gauss</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.07</color></b>\n\n<br><br><color=#FFEF00>Arm Actuator Limits: Left Upper, Right Upper</color>",
     "Icon": "uixTxrIcon_catapultk2"
   },

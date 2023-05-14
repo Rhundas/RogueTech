@@ -44,7 +44,7 @@
     "Model": "EGL-2M-C",
     "UIName": "Eagle EGL-2M 'Corrine'",
     "Id": "mechdef_eagle_EGL-2M-C",
-    "Name": "Eagle EGL-2M 'Corrine'",
+    "Name": "Eagle EGL-2M",
     "Details": "The personal BattleMech of legendary MechWarrior Corrine Marik, abruptly vanishing Captain-General of the Free Worlds League. Whether or not this BattleMech was piloted by the true Corrine or one of her many body-double clones remains a mystery.\n\n<b><color=#e62e00>Quirk: Extended Torso Twist</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.96</color></b>",
     "Icon": "uixTxrIcon_clint"
   },

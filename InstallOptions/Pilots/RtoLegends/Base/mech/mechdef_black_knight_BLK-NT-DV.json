@@ -42,9 +42,9 @@
     "Commentary": "pilot_Thane",
     "Manufacturer": "ComStar",
     "Model": "BLK-NT-DV",
-    "UIName": "Black Knight BLK-NT-DV 'DeVega'",
+    "UIName": "Black Knight 'DeVega'",
     "Id": "mechdef_black_knight_BLK-NT-DV",
-    "Name": "Black Knight BLK-NT-DV 'DeVega'",
+    "Name": "Black Knight BLK-NT-DV",
     "Details": "The personal BattleMech of legendary MechWarrior Esteban DeVega, callsign \"Ouranos\".\n\n<b><color=#e62e00>Quirk: Melee Actuators</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.13</color></b>",
     "Icon": "uixTxrIcon_blackknight"
   },

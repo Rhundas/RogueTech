@@ -43,7 +43,7 @@
     "Model": "PXH-IIC-BA",
     "UIName": "Phoenix Hawk IIC 'Blazing Ace'",
     "Id": "mechdef_phoenix_hawk_IIC_PXH-IIC-BA",
-    "Name": "Phoenix Hawk IIC 'Blazing Ace'",
+    "Name": "Phoenix Hawk IIC",
     "Details": "The personal BattleMech of legendary MechWarrior Baelin Hawker, callsign \"Braver\". Outfitted with Clan Diamond Shark technology, this Clan BattleMech is a reflection of Braver's vow to never again be prey.\n\n<b><color=#e62e00>Quirk: Nimble</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.12</color></b>",
     "Icon": "uixTxrIcon_phoenixhawk"
   },

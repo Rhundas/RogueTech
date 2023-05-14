@@ -42,9 +42,9 @@
     "Commentary": "pilot_Narf",
     "Manufacturer": "God Knows",
     "Model": "TDR-DT",
-    "UIName": "Thunderbolt TDR-DT 'Disco Thunder'",
+    "UIName": "Thunderbolt 'Disco Thunder'",
     "Id": "mechdef_thunderbolt_TDR-DT",
-    "Name": "Thunderbolt TDR-DT 'Disco Thunder'",
+    "Name": "Thunderbolt TDR-DT",
     "Details": "The personal BattleMech of legendary MechWarrior Quizel Narf.\n\n<b><color=#e62e00>Quirk: Multi Trac</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.09</color></b>",
     "Icon": "uixTxrIcon_thunderbolt"
   },

@@ -44,7 +44,7 @@
     "Model": null,
     "UIName": "Shrike SRK-ID 'Impending Doom'",
     "Id": "mechdef_shrike_SRK-ID",
-    "Name": "Shrike SRK-ID 'Impending Doom'",
+    "Name": "Shrike SRK-ID",
     "Details": "The personal BattleMech of legendary MechWarrior Svelte Sobral. While outwardly resembling the Clan Jade Falcon BattleMech, this version of the Shrike features mostly Inner Sphere and very early Clan technology. It's almost as if the owners were ousted from Clan space before the technology was fully developed...\n\n<b><color=#e62e00>Quirk: Easy to Pilot</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.34</color></b>\n\n<br><br><color=#FFEF00>Arm Actuator Limit: Left Lower</color>",
     "Icon": "Shrike2"
   },

@@ -41,9 +41,9 @@
     "Commentary": "pilot_Julimarie",
     "Manufacturer": "Corsara Weaponries",
     "Model": "KGC-HB",
-    "UIName": "King Crab KGC-HB 'Hornbreaker'",
+    "UIName": "King Crab 'Hornbreaker'",
     "Id": "mechdef_king_crab_KGC-HB",
-    "Name": "King Crab KGC-HB 'Hornbreaker'",
+    "Name": "King Crab KGC-HB",
     "Details": "The personal BattleMech of legendary MechWarrior Julimarie Arano.\n\n<b><color=#e62e00>Quirk: Command Mech</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.18</color></b>",
     "Icon": "uixTxrIcon_kingcrab"
   },

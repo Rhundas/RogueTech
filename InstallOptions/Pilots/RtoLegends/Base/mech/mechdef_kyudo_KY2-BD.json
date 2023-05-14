@@ -45,9 +45,9 @@
     "Commentary": "pilot_Bubbles",
     "Manufacturer": "Ryan Industries",
     "Model": "KY2-BD",
-    "UIName": "Kyudo KY2-BD 'Big Daddy'",
+    "UIName": "Kyudo 'Big Daddy'",
     "Id": "mechdef_kyudo_KY2-BD",
-    "Name": "Kyudo KY2-BD 'Big Daddy'",
+    "Name": "Kyudo KY2-BD",
     "Details": "The personal BattleMech of enigmatic MechWarrior Dotini von Glitchifer, callsign \"Mister Bubbles\". This ancient <i>Kyudo</i> dates back to the dawn of the BattleMech - it's incredible that it's still in working order. Amongst many unexplained oddities, the large conical drill affixed to the 'Mech's right arm might be the strangest.\n\n<b><color=#e62e00>Quirk: Easy to Pilot</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.81</color></b>\n\n<br><br><color=#FFEF00>Arm Actuator Limit: Right Upper</color>",
     "Icon": "uixTxrIcon_centurion"
   },

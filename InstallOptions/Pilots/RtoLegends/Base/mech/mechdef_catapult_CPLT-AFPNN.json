@@ -39,9 +39,9 @@
     "Commentary": "pilot_Slippy",
     "Manufacturer": "Hollis Industries",
     "Model": "CPLT-AFPNN",
-    "UIName": "Catapult CPLT-AFPNN 'Frogge Lad'",
+    "UIName": "Catapult 'Frogge Lad'",
     "Id": "mechdef_catapult_CPLT-AFPNN",
-    "Name": "Catapult CPLT-AFPNN 'Frogge Lad'",
+    "Name": "Catapult CPLT-AFPNN",
     "Details": "The personal BattleMech of legendary MechWarrior Slip E. Toad, callsign \"Slippy\".\n\n<b><color=#e62e00>Quirk: Accurate Weapon - Missiles</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.11</color></b>\n\n<br><br><color=#FFEF00>Arm Actuator Limits: Left Upper, Right Upper</color>",
     "Icon": "uixTxrIcon_catapult"
   },

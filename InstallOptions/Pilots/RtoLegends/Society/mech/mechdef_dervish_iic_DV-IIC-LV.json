@@ -35,7 +35,7 @@
     "Model": null,
     "UIName": "Dervish IIC 'Laevateinn'",
     "Id": "mechdef_dervish_iic_DV-IIC-LV",
-    "Name": "Dervish IIC 'Laevateinn'",
+    "Name": "Dervish IIC",
     "Details": "The personal BattleMech of legendary MechWarrior Pagan Horde, former Khan of Clan Burrock. Outfitted using Society-built prototypes, and then further customized with a <i>Hatchetman</i>'s hand assembly to suit Pagan's unique style of piloting, the \"Laevateinn\" led the charge in Clan Burrock's sweep of much of the Inner Sphere, or so it is said...\n\n<b><color=#e62e00>Quirk: Melee Actuators</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.11</color></b>\n\n<br><br><color=#FFEF00>Arm Actuator Limits: Left Lower</color>",
     "Icon": "uixTxrIcon_dervish"
   },
