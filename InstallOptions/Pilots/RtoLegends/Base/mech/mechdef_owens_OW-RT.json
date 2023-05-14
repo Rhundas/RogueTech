@@ -42,6 +42,7 @@
     "Cost": 784314,
     "Rarity": 1,
     "Purchasable": true,
+    "Commentary": "pilot_JellyRoll",
     "Manufacturer": "CCAF",
     "Model": "OW-RT",
     "UIName": "Owens OW-RT 'Risky Tacos'",

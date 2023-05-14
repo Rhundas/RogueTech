@@ -38,7 +38,7 @@
     "Rarity": 6,
     "Purchasable": true,
     "Manufacturer": "Hollis Industries",
-    "Model": "CPLT-DNN",
+    "Model": "CPLT-AFPNN",
     "UIName": "Catapult",
     "Id": "chassisdef_catapult_CPLT-AFPNN",
     "Name": "Catapult",
