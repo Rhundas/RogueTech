@@ -1,0 +1,20 @@
+{
+  "Description": {
+    "Id": "SimGameStatDesc_Item.MechDef.chassisdef_crab_CRB-27b",
+    "Name": "Item.MechDef.chassisdef_MechDef.chassisdef_crab_CRB-27b",
+    "Details": "Crab 27b Mech for RTO Event",
+    "Icon": null
+  },
+  "setResult": "",
+  "positiveResult": "Crab 27b added to inventory",
+  "negativeResult": "Crab 27b removed from inventory",
+  "temporalSetResult": "",
+  "temporalPositiveResult": "",
+  "temporalNegativeResult": "",
+  "infinitiveSetResult": "",
+  "infinitivePositiveResult": "",
+  "infinitiveNegativeResult": "",
+  "CustomParts": {
+    "CustomParts": []
+  }
+}

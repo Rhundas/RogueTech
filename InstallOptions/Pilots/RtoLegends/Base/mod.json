@@ -31,6 +31,16 @@
       "Type": "SimGameEventDef",
       "Path": "events",
       "AddToDB": true
+    },
+    {
+      "Type": "simGameStatDescDef",
+      "Path": "statdesc",
+      "AddToDB": true
+    },
+    {
+      "Type": "DescriptionDef",
+      "Path": "descriptions",
+      "AddToDB": true
     }
   ]
 }

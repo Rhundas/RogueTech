@@ -2,30 +2,63 @@
   "Description": {
     "Id": "event_mw_RTO_Das_Hint",
     "Name": "Musings from McEvedy",
-    "Details": "Words.",
+    "Details": "It's far into the evening as you wander through the halls of the <i>Argo</i> on the way to your quarters. Turning the last twist before the doorway puts you face to face with [[TGT_MW,{TGT_MW.Callsign}]], who looks just as surprised as you do. After an awkward, but thankfully brief stand off {TGT_MW.Subj} {TGT_MW.Gender?NonBinary:break|Default:breaks} the silence.\n\n\"Commander. Hi,\" {TGT_MW.Subj} {TGT_MW.Gender?NonBinary:begin|Default:begins}, \"I've ... been around for a while, y'know. In the company, I mean. Taken some knocks, had a few laughs, et cetera. I was wondering if — well, I could ask for a favour. Sort of.\"\n\nYou raise a brow. \"Sort of? What's on your mind, {TGT_MW.LastName}?\"\n\n\"There's a 'Mech that I used to pilot,\" {TGT_MW.Subj} {TGT_MW.Gender?NonBinary:explain|Default:explains}, leaning against the metal wall of the hallway. \"A long time ago now, but it was a custom ride I fixed up myself. I've been poking around the Mech Bay - maybe a bit more than I should've been, but ... I think with the right chassis and the <i>Argo's</i> facilities I could rebuild that 'Mech. I think it'd be a great addition to the company.\"\n\nIntrigued, you fold your arms and park on the opposite wall. \"That depends on what the chassis is. Tell me what you need and I'll tell you if we can make it happen.\"\n\n{TGT_MW.Callsign} grins confidently. \"An [[DM.BaseDescriptionDefs[SLDF],SLDF]] 'Mech — a <i>Crab</i> 27b. It'd need to be stripped down completely. Having it be in cold storage would make it easier, even.\"",
     "Icon": "uixTxrSpot_MechBay.png"
   },
   "Scope": "MechWarrior",
-  "Weight": 100,
+  "Weight": 20,
   "Requirements": {
     "Scope": "MechWarrior",
     "RequirementTags": {
-      "items":[
+      "items": [
         "name_Das"
       ],
       "tagSetSourceFile": "Tags/PilotTags"
     },
     "ExclusionTags": {
-      "items": null,
-      "tagSetSourceFile": ""
+      "items": [
+        "pilot_morale_low"
+      ],
+      "tagSetSourceFile": "Tags/PilotTags"
     },
-    "RequirementComparisons": null
+    "RequirementComparisons": [
+      {
+        "obj": "Injuries",
+        "op": "Equal",
+        "val": 0,
+        "valueConstant": "0"
+      },
+      {
+        "obj": "Gunnery",
+        "op": "GreaterThan",
+        "val": 4,
+        "valueConstant": "4"
+      },
+      {
+        "obj": "Piloting",
+        "op": "GreaterThan",
+        "val": 4,
+        "valueConstant": "4"
+      },
+      {
+        "obj": "Guts",
+        "op": "GreaterThan",
+        "val": 4,
+        "valueConstant": "4"
+      },
+      {
+        "obj": "Tactics",
+        "op": "GreaterThan",
+        "val": 4,
+        "valueConstant": "4"
+      }
+    ]
   },
   "AdditionalRequirements": [
     {
       "Scope": "Company",
       "RequirementTags": {
-        "items": null,
+        "items": [],
         "tagSetSourceFile": ""
       },
       "ExclusionTags": {
@@ -41,6 +74,12 @@
           "op": "LessThan",
           "val": 1,
           "valueConstant": "1"
+        },
+        {
+          "obj": "MissionsComplete",
+          "op": "GreaterThanOrEqual",
+          "val": 25,
+          "valueConstant": "25"
         }
       ]
     }
@@ -52,7 +91,7 @@
         "Id": "outcome_0",
         "Name": "Tell {TGT_MW.Obj} you'll keep an eye out.",
         "Details": "Acknowledgement - no tag change",
-        "Icon": ""
+        "Icon": null
       },
       "RequirementList": [],
       "ResultSets": [
@@ -60,8 +99,8 @@
           "Description": {
             "Id": "outcome_0_0",
             "Name": "Acknowledged",
-            "Details": "This is the text for the event resolved (outcome 0)",
-            "Icon": ""
+            "Details": "\"Why that specific model?\" you ask.\n\n[[TGT_MW,{TGT_MW.Callsign}]] blinks, looking at you as if you'd just asked the universe's most obvious question. \"It's important,\" {TGT_MW.Subj} {TGT_MW.Gender?NonBinary:answer|Default:answers}, with a sense of finality. You're pretty sure you'd be here for at least another fifteen minutes if you pressed {TGT_MW.Subj}.\n\nRubbing your brow and glancing past {TGT_MW.Callsign} to your quarters, you nod. \"We can keep an eye out. When we get one, come see me again and give me and Chief Virtanen a full rundown, okay?\"\n\n{TGT_MW.Callsign} beams at you. \"Understood, Commander. Thank you. Enjoy your rest, yeah?\"\n\nYou nod in the affirmative, giving {TGT_MW.Subj} a lazy wave for a send-off before you crash into bed for the night.",
+            "Icon": null
           },
           "Weight": 100,
           "Results": [
@@ -70,12 +109,12 @@
               "Requirements": null,
               "AddedTags": {
                 "items": [
-                "event_RTO_Das_ShutUp"
+                  "event_RTO_Das_ShutUp"
                 ],
                 "tagSetSourceFile": "Tags/CompanyTags"
               },
               "RemovedTags": {
-                "items": null,
+                "items": [],
                 "tagSetSourceFile": ""
               },
               "Stats": null,
@@ -88,7 +127,7 @@
               "Scope": "MechWarrior",
               "Requirements": null,
               "AddedTags": {
-                "items": null,
+                "items": [],
                 "tagSetSourceFile": ""
               },
               "RemovedTags": {
@@ -113,7 +152,7 @@
                 "tagSetSourceFile": "Tags/PilotTags"
               },
               "RemovedTags": {
-                "items": null,
+                "items": [],
                 "tagSetSourceFile": ""
               },
               "Stats": null,
@@ -128,11 +167,11 @@
       "Requirements": {
         "Scope": "Company",
         "RequirementTags": {
-          "items": null,
+          "items": [],
           "tagSetSourceFile": ""
         },
         "ExclusionTags": {
-          "items": null,
+          "items": [],
           "tagSetSourceFile": ""
         },
         "RequirementComparisons": []
@@ -143,7 +182,7 @@
         "Id": "outcome_1",
         "Name": "Say you don't need reminding.",
         "Details": "Mute the hints",
-        "Icon": ""
+        "Icon": null
       },
       "RequirementList": [],
       "ResultSets": [
@@ -151,8 +190,8 @@
           "Description": {
             "Id": "outcome_1_0",
             "Name": "Acknowledged. Now can it.",
-            "Details": "This is the text for the event muted (outcome 1)",
-            "Icon": ""
+            "Details": "\"Why that specific model?\" you ask.\n\n[[TGT_MW,{TGT_MW.Callsign}]] blinks, looking at you as if you'd just asked the universe's most obvious question. \"It's important,\" {TGT_MW.Subj} {TGT_MW.Gender?NonBinary:answer|Default:answers}, with a sense of finality. You're pretty sure you'd be here for at least another fifteen minutes if you pressed {TGT_MW.Subj}.\n\nRubbing your brow and glancing past {TGT_MW.Callsign} to your quarters, you nod. \"We can keep an eye out, but I don't want you constantly hounding me about it, alright? When we get one, bring the specs to myself and Chief Virtanen and we'll look it over.\"\n\n{TGT_MW.Callsign} nods. \"Understood, Commander.\"\n\nYou nod once in return and give {TGT_MW.Subj} a short wave as a send-off before you crash into bed for the night.",
+            "Icon": null
           },
           "Weight": 100,
           "Results": [
@@ -166,7 +205,7 @@
                 "tagSetSourceFile": "Tags/CompanyTags"
               },
               "RemovedTags": {
-                "items": null,
+                "items": [],
                 "tagSetSourceFile": ""
               },
               "Stats": null,
@@ -181,11 +220,11 @@
       "Requirements": {
         "Scope": "Company",
         "RequirementTags": {
-          "items": null,
+          "items": [],
           "tagSetSourceFile": ""
         },
         "ExclusionTags": {
-          "items": null,
+          "items": [],
           "tagSetSourceFile": ""
         },
         "RequirementComparisons": []
@@ -196,7 +235,7 @@
         "Id": "outcome_2",
         "Name": "Tell {TGT_MW.Obj} you're not interested in {TGT_MW.Det} ideas.",
         "Details": "[Ends the chain]",
-        "Icon": ""
+        "Icon": null
       },
       "RequirementList": [],
       "ResultSets": [
@@ -204,8 +243,8 @@
           "Description": {
             "Id": "outcome_2_0",
             "Name": "90 day low spirits",
-            "Details": "This is the text for event bad end (outcome 2-0)",
-            "Icon": ""
+            "Details": "\"I'll be frank with you, {TGT_MW.LastName},\" you say, furrowing your brow, \"that's awfully specific and I don't think I can make any kind of guarantees. Actually, wait. Why are you poking around the Mech Bay?\"\n\n[[TGT_MW,{TGT_MW.Callsign}]] stiffens and folds {TGT_MW.Det} arms. \"I don't see what that has to do with my request,\" {TGT_MW.Subj} {TGT_MW.Gender?NonBinary:respond|Default:responds} tersely. \"Yang doesn't even know I'm there, most of the time.\"\n\n\"You're not helping your case here, {TGT_MW.Callsign},\" you warn. \"I don't want you near that Mech Bay, especially not if you're going to be bothering <i>Chief Virtanen</i>. You're a MechWarrior, not a MechTech. Leave the tinkering to them.\"\n\nWith a frustrated sigh, {TGT_MW.Callsign} pushes off from the wall. \"Right,\" {TGT_MW.Subj} {TGT_MW.Gender?NonBinary:mutter|Default:mutters}. \"Have a good one, Commander,\" {TGT_MW.Subj} {TGT_MW.Gender?NonBinary:add|Default:adds} flatly, walking away down the hallway.",
+            "Icon": null
           },
           "Weight": 50,
           "Results": [
@@ -213,7 +252,7 @@
               "Scope": "MechWarrior",
               "Requirements": null,
               "AddedTags": {
-                "items": null,
+                "items": [],
                 "tagSetSourceFile": ""
               },
               "RemovedTags": {
@@ -238,7 +277,7 @@
                 "tagSetSourceFile": ""
               },
               "RemovedTags": {
-                "items": null,
+                "items": [],
                 "tagSetSourceFile": ""
               },
               "Stats": null,
@@ -274,16 +313,18 @@
           "Description": {
             "Id": "outcome_2_1",
             "Name": "Rebellious + 90 day low morale",
-            "Details": "This is the text for event bad end (outcome 2-1)",
-            "Icon": ""
+            "Details": "\"I'll be frank with you, {TGT_MW.LastName},\" you say, furrowing your brow, \"that's awfully specific and I don't think I can make any kind of guarantees. Actually, wait. Why are you poking around the Mech Bay?\"\n\n[[TGT_MW,{TGT_MW.Callsign}]] stiffens and folds {TGT_MW.Det} arms. \"I don't see what that has to do with my request,\" {TGT_MW.Subj} {TGT_MW.Gender?NonBinary:respond|Default:responds} tersely. \"Yang doesn't even know I'm there, most of the time.\"\n\n\"You're not helping your case here, {TGT_MW.Callsign},\" you warn. \"I don't want you near that Mech Bay, especially not if you're going to be bothering <i>Chief Virtanen</i>. You're a MechWarrior, not a MechTech. Leave the tinkering to them.\"\n\nWith a frustrated sigh, {TGT_MW.Callsign} pushes off from the wall. \"This is bullshit, Commander!\" {TGT_MW.Subj} {TGT_MW.Gender?NonBinary:snap|Default:snaps}, \"I bust my ass for this company every deployment and you won't even hear me out?\"\n\n\"If you're going to take that tone, absolutely not, MechWarrior. This is the last I want to hear of it.\" You remain against the wall, staring {TGT_MW.Callsign} down. \"I pay you to do one thing, and one thing only, and it is <i>not</i> throwing a tantrum outside my quarters. Are we clear?\"\n\n\"We're clear, Commander. Message recieved,\" {TGT_MW.Callsign} replies, jaw set like a rock as {TGT_MW.Callsign} {TGT_MW.Gender?NonBinary:storm|Default:storms} away down the hall.",
+            "Icon": null
           },
           "Weight": 50,
           "Results": [
-             {
+            {
               "Scope": "MechWarrior",
               "Requirements": null,
               "AddedTags": {
-                "items": null,
+                "items": [
+                  "pilot_rebellious"
+                ],
                 "tagSetSourceFile": ""
               },
               "RemovedTags": {
@@ -308,7 +349,7 @@
                 "tagSetSourceFile": ""
               },
               "RemovedTags": {
-                "items": null,
+                "items": [],
                 "tagSetSourceFile": ""
               },
               "Stats": null,
@@ -316,22 +357,6 @@
               "ForceEvents": null,
               "TemporaryResult": true,
               "ResultDuration": 90
-            },
-            {
-              "Scope": "MechWarrior",
-              "Requirements": null,
-              "AddedTags": {
-                "items": [
-                  "pilot_rebellious"
-                ],
-                "tagSetSourceFile": "Tags/PilotTags"
-              },
-              "RemovedTags": null,
-              "Stats": null,
-              "Actions": null,
-              "ForceEvents": null,
-              "TemporaryResult": false,
-              "ResultDuration": 0
             },
             {
               "Scope": "Company",
@@ -360,11 +385,11 @@
       "Requirements": {
         "Scope": "Company",
         "RequirementTags": {
-          "items": null,
+          "items": [],
           "tagSetSourceFile": ""
         },
         "ExclusionTags": {
-          "items": null,
+          "items": [],
           "tagSetSourceFile": ""
         },
         "RequirementComparisons": []
@@ -373,5 +398,10 @@
   ],
   "PublishState": "PUBLISHED",
   "ValidationState": "UNTESTED",
-  "EventType": "NORMAL"
+  "EventType": "NORMAL",
+  "OneTimeEvent": false,
+  "Tags": {
+    "items": [],
+    "tagSetSourceFile": "tags/EventTags"
+  }
 }

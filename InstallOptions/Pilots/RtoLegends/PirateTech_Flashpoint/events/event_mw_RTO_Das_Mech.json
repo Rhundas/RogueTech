@@ -2,11 +2,11 @@
   "Description": {
     "Id": "event_mw_RTO_Das_Mech",
     "Name": "A Crab of Legend",
-    "Details": "This is the text for the start of the event.",
+    "Details": "\"Hey, Commander!\" A shout from down the hallway catches your attention as you leave the MechBay. Throwing a glance to your left you see [[TGT_MW,{TGT_MW.Callsign}]] jogging towards you.\n\n\"{TGT_MW.LastName},\" you say, quirking a brow at {TGT_MW.Det} excited grin, \"what's the rush?\"\n\n{TGT_MW.Callsign} all but shoves a datapad into your hands. Looking down at it you can see a full [[DM.BaseDescriptionDefs[LoreTRO],TRO]] for a BattleMech.\n\n\"I saw we have a <i>Crab</i> 27b in storage,\" {TGT_MW.Subj} {TGT_MW.Gender?NonBinary:explain|Default:explains}, catching {TGT_MW.Det} breath. \"If we're not planning to use it, I reckon I can build it up to that specification.\"\n\nParsing through the TRO, several unsual additions catch your eye — unusual and expensive additions. Your quirked brow quirks higher as you crunch the numbers in your head.\n\nAs if sensing your feat of mental gymnastics, {TGT_MW.Callsign} speaks up again. \"Look! I know it's a big ask, but this 'Mech is a design that's seen me through thick, thin, and everything in between! She was, admittedly, completely destroyed a while back, but I can rebuild her better than ever with the <i>Argo's</i> MechBays and two weeks — tops!\"\n\nBy now, the commotion has attracted the attention of Yang. He hovers beside you and silently holds out a hand for the datapad, which you pass over. Both you and {TGT_MW.Callsign} wait while Yang reads through the TRO. After a short couple of minutes, he looks back up, hands the datapad back to {TGT_MW.Callsign}. \"Yeah,\" he says, \"it's certainly <i>possible</i>-\"\n\n\"Yes!\" {TGT_MW.Callsign} celebrates. Yang clears his throat.\n\n\"<i>But</i>,\" he continues, \"it'll be expensive and it'll divert a not-insignificant amount of our workforce until it's done. It's your call, Commander.\"",
     "Icon": "uixTxrSpot_MechBay.png"
   },
   "Scope": "MechWarrior",
-  "Weight": 100,
+  "Weight": 90,
   "Requirements": {
     "Scope": "MechWarrior",
     "RequirementTags": {
@@ -16,7 +16,9 @@
       "tagSetSourceFile": "Tags/PilotTags"
     },
     "ExclusionTags": {
-      "items": "pilot_morale_low",
+      "items": [
+        "pilot_morale_low"
+      ],
       "tagSetSourceFile": "Tags/PilotTags"
     },
     "RequirementComparisons": [
@@ -25,6 +27,30 @@
         "op": "Equal",
         "val": 0,
         "valueConstant": "0"
+      },
+      {
+        "obj": "Gunnery",
+        "op": "GreaterThan",
+        "val": 4,
+        "valueConstant": "4"
+      },
+      {
+        "obj": "Piloting",
+        "op": "GreaterThan",
+        "val": 4,
+        "valueConstant": "4"
+      },
+      {
+        "obj": "Guts",
+        "op": "GreaterThan",
+        "val": 4,
+        "valueConstant": "4"
+      },
+      {
+        "obj": "Tactics",
+        "op": "GreaterThan",
+        "val": 4,
+        "valueConstant": "4"
       }
     ]
   },
@@ -32,7 +58,7 @@
     {
       "Scope": "Company",
       "RequirementTags": {
-        "items": null,
+        "items": [],
         "tagSetSourceFile": ""
       },
       "ExclusionTags": {
@@ -43,10 +69,16 @@
       },
       "RequirementComparisons": [
         {
-          "obj": "Item.MechDef.chassisdef.crab_CRB-27b",
+          "obj": "Item.MechDef.chassisdef_crab_CRB-27b",
           "op": "GreaterThanOrEqual",
           "val": 1,
           "valueConstant": "1"
+        },
+        {
+          "obj": "MissionsComplete",
+          "op": "GreaterThanOrEqual",
+          "val": 25,
+          "valueConstant": "25"
         }
       ]
     }
@@ -57,18 +89,18 @@
       "Description": {
         "Id": "outcome_0",
         "Name": "Let {TGT_MW.Obj} work in the MechBay.",
-        "Details": "[¢2,000,000]",
-        "Icon": ""
+        "Details": "[\u00A22,000,000]",
+        "Icon": null
       },
       "RequirementList": [
         {
           "Scope": "Company",
           "RequirementTags": {
-            "items": null,
+            "items": [],
             "tagSetSourceFile": ""
           },
           "ExclusionTags": {
-            "items": null,
+            "items": [],
             "tagSetSourceFile": ""
           },
           "RequirementComparisons": [
@@ -85,9 +117,9 @@
         {
           "Description": {
             "Id": "outcome_0_0",
-            "Name": "Lose 2mil, lose CRB-27b, gain CRB-TWN, big hit to mech tech & mw timout 15 days",
-            "Details": "This is the text for the event good end (outcome 0-0)",
-            "Icon": ""
+            "Name": "Lose 2mil, lose CRB-27b, gain CRB-TNW, big hit to mech tech & mw timout 15 days",
+            "Details": "After some quick mental math, the expenses seem reasonable. With both Yang and [[TGT_MW,{TGT_MW.Callsign}]] staring expectantly at you, you nod.\n\n\"Granted, {TGT_MW.LastName}. Let Chief Virtanen know what you need.\" You turn to Yang. \"Keep me up to date on any developments. You think you can get this done in a week?\"\n\nYang's brow wrinkles in thought. \"I'd say two, to be safe, Boss. You rush something like this and you end up with a very expensive accident.\"\n\n\"Good enough,\" you say. \"{TGT_MW.Callsign}, this'd better be the best damn 'Mech I've ever seen, you hear?\"\n\n\"Absolutely, Commander,\" {TGT_MW.Subj} {TGT_MW.Gender?NonBinary:reply|Default:replies}.\n\nOver the next two weeks, you recieve various updates from both Yang and a grateful {TGT_MW.Callsign} on the progress of the 'Mech. There are some minor complications and the costs end up running you slightly more than you'd like, but at the end of the MechBay sprint, you're left with a BattleMech that could truly be called a Crab of Legend.",
+            "Icon": null
           },
           "Weight": 100,
           "Results": [
@@ -116,7 +148,7 @@
                 },
                 {
                   "typeString": "System.Int32",
-                  "name": "Item.MechDef.chassisdef.crab_CRB-27b",
+                  "name": "Item.MechDef.chassisdef_crab_CRB-27b",
                   "value": "-1",
                   "set": false,
                   "valueConstant": null
@@ -126,7 +158,8 @@
                 {
                   "Type": "Mech_AddRoster",
                   "value": "mechdef_crab_CRB-TNW",
-                  "valueConstant": null
+                  "valueConstant": null,
+                  "additionalValues": null
                 }
               ],
               "ForceEvents": null,
@@ -137,11 +170,11 @@
               "Scope": "Company",
               "Requirements": null,
               "AddedTags": {
-                "items": null,
+                "items": [],
                 "tagSetSourceFile": ""
               },
               "RemovedTags": {
-                "items": null,
+                "items": [],
                 "tagSetSourceFile": ""
               },
               "Stats": [
@@ -156,17 +189,17 @@
               "Actions": null,
               "ForceEvents": null,
               "TemporaryResult": true,
-              "ResultDuration": 14
+              "ResultDuration": 15
             },
             {
               "Scope": "MechWarrior",
               "Requirements": null,
               "AddedTags": {
-                "items": null,
+                "items": [],
                 "tagSetSourceFile": ""
               },
               "RemovedTags": {
-                "items": null,
+                "items": [],
                 "tagSetSourceFile": ""
               },
               "Stats": null,
@@ -192,7 +225,7 @@
                 "tagSetSourceFile": "Tags/PilotTags"
               },
               "RemovedTags": {
-                "items": null,
+                "items": [],
                 "tagSetSourceFile": ""
               },
               "Stats": null,
@@ -203,14 +236,26 @@
             }
           ]
         }
-      ]
+      ],
+      "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+          "items": [],
+          "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+          "items": [],
+          "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+      }
     },
     {
       "Description": {
         "Id": "outcome_1",
-        "Name": "Delay the event 90 days",
+        "Name": "Tell {TGT_MW.Det} to ask you later.",
         "Details": "This is the text for the event delay (outcome 1)",
-        "Icon": ""
+        "Icon": null
       },
       "RequirementList": [],
       "ResultSets": [
@@ -218,8 +263,8 @@
           "Description": {
             "Id": "outcome_1_0",
             "Name": "Delay Event, no hard feelings",
-            "Details": "This is the text for the event delay (outcome 1-0)",
-            "Icon": ""
+            "Details": "After running the numbers for a minute, you turn to [[TGT_MW,{TGT_MW.Callsign}]]. \"I can see you're excited about the possibility here. Unfortunately I just don't think it's feasible for us to make that kind of commitment right now, in terms of both manpower and funds.\"\n\n{TGT_MW.Callsign} takes a moment to think, then nods. \"As long as this is a 'not right now' and not a hard 'no', that's fine with me, Commander.\"\n\n\"It is very much a 'not right now'. If you're still wanting to try this in a couple of months, run it past us again and we'll see if we can make it happen,\" you assure {TGT_MW.Det}. Yang murmurs something that vaguely sounds like agreement.\n\nAfter {TGT_MW.Callsign} has moved on, Yang lets out a sigh. \"Really? C'mon, Boss. That 'Mech looked sweet!\"\n\nYou roll your eyes and pat him on the shoulder with a comforting smile. \"I appreciate your restraint in front of the Mechjocks. That takes some effort.\"",
+            "Icon": null
           },
           "Weight": 25,
           "Results": [
@@ -230,17 +275,17 @@
                 "items": [
                   "event_RTO_Das_done"
                 ],
-                "tagSetSoureFile": "Tags/CompanyTags"
+                "tagSetSourceFile": ""
               },
               "RemovedTags": {
-                "items": null,
+                "items": [],
                 "tagSetSourceFile": ""
               },
               "Stats": null,
               "Actions": null,
               "ForceEvents": null,
               "TemporaryResult": true,
-              "ResultDuration": 90
+              "ResultDuration": 60
             }
           ]
         },
@@ -248,8 +293,8 @@
           "Description": {
             "Id": "outcome_1_1",
             "Name": "Delay the event, bummed out",
-            "Details": "This is the text for the event delay (outcome 1-1)",
-            "Icon": ""
+            "Details": "After running the numbers for a minute, you turn to [[TGT_MW,{TGT_MW.Callsign}]] and shake your head. \"I can see you're excited about the possibility here. Unfortunately I just don't think it's feasible for us to make that kind of commitment right now, in terms of both manpower and funds.\"\n\n{TGT_MW.Callsign} takes a moment to think, then sighs. \"I was really hoping that the whole datapad would convince you.\"\n\n\"Convincing or not, we can't pay for a refit that extensive off of neatly presented documents,\" you say.\n\n\"Yeah,\" {TGT_MW.Subj} {TGT_MW.Gender?NonBinary:grumble|Default:grumbles}, \"didn't stop me getting my hopes up.\"\n\nYang steps in, clearing his throat. \"Hey, the Commander said it's not possible <i>right now</i>. That doesn't mean it'll never be. For what it's worth, I think it's worth another look later, when we have the cash and manpower to spare.\"\n\nWhile Yang's reassurances seem to soften the blow a little, it takes {TGT_MW.Callsign} some time to shake off the disappointment.",
+            "Icon": null
           },
           "Weight": 75,
           "Results": [
@@ -257,24 +302,26 @@
               "Scope": "Company",
               "Requirements": null,
               "AddedTags": {
-                "items": "event_RTO_Das_done",
-                "tagSetSoureFile": "Tags/CompanyTags"
+                "items": [
+                  "event_RTO_Das_done"
+                ],
+                "tagSetSourceFile": ""
               },
               "RemovedTags": {
-                "items": null,
+                "items": [],
                 "tagSetSourceFile": ""
               },
               "Stats": null,
               "Actions": null,
               "ForceEvents": null,
               "TemporaryResult": true,
-              "ResultDuration": 90
+              "ResultDuration": 60
             },
             {
               "Scope": "MechWarrior",
               "Requirements": null,
               "AddedTags": {
-                "items": null,
+                "items": [],
                 "tagSetSourceFile": ""
               },
               "RemovedTags": {
@@ -299,14 +346,14 @@
                 "tagSetSourceFile": "Tags/PilotTags"
               },
               "RemovedTags": {
-                "items": null,
+                "items": [],
                 "tagSetSourceFile": ""
               },
               "Stats": null,
               "Actions": null,
               "ForceEvents": null,
               "TemporaryResult": true,
-              "ResultDuration": 30
+              "ResultDuration": 7
             }
           ]
         }
@@ -314,11 +361,11 @@
       "Requirements": {
         "Scope": "Company",
         "RequirementTags": {
-          "items": null,
+          "items": [],
           "tagSetSourceFile": ""
         },
         "ExclusionTags": {
-          "items": null,
+          "items": [],
           "tagSetSourceFile": ""
         },
         "RequirementComparisons": []
@@ -329,7 +376,7 @@
         "Id": "outcome_2",
         "Name": "Tell {TGT_MW.Obj} you're not interested in {TGT_MW.Det} ideas.",
         "Details": "[Ends the chain]",
-        "Icon": ""
+        "Icon": null
       },
       "RequirementList": [],
       "ResultSets": [
@@ -337,16 +384,16 @@
           "Description": {
             "Id": "outcome_2_0",
             "Name": "90 day low spirits",
-            "Details": "This is the text for the event bad end (outcome 2-0)",
-            "Icon": ""
+            "Details": "After running the numbers for a minute, you turn to [[TGT_MW,{TGT_MW.Callsign}]] and shake your head. \"Possible idea doesn't always mean good idea.\"\n\nBoth Yang and [[TGT_MW,{TGT_MW.Callsign}]] look equally irked.\n\n\"Hold on a second,\" {TGT_MW.Callsign} begins. \"Boss, I,\" Yang starts.\n\nYou raise your hand and both fall silent. \"{TGT_MW.Callsign} - you're not a MechTech. This isn't what you're paid for and, frankly, I'm not sure I'd trust a design like this unless you were certified. Yang - you gotta stop letting every 'rule of cool' idea slide, even when they do have merit. If we start letting every MechWarrior bring in custom parts for their 'Mechs, where does it end?\"\n\nYang furrows his brow. \"Well. When you put it that way, I have some work to get back to,\" he responds sourly and disappears back into the organised chaos of the MechBays.\n\n\"Yeah,\" echoes {TGT_MW.Callsign}, brow low enough to touch the floor as they walk past you down the corridor. \"Me too.\"",
+            "Icon": null
           },
-          "Weight": 50,
+          "Weight": 25,
           "Results": [
             {
               "Scope": "MechWarrior",
               "Requirements": null,
               "AddedTags": {
-                "items": null,
+                "items": [],
                 "tagSetSourceFile": ""
               },
               "RemovedTags": {
@@ -371,7 +418,7 @@
                 "tagSetSourceFile": ""
               },
               "RemovedTags": {
-                "items": null,
+                "items": [],
                 "tagSetSourceFile": ""
               },
               "Stats": null,
@@ -403,20 +450,22 @@
             }
           ]
         },
-         {
+        {
           "Description": {
             "Id": "outcome_2_1",
             "Name": "Rebellious + 90 day low morale",
-            "Details": "This is the text for event bad end (outcome 2-1)",
-            "Icon": ""
+            "Details": "After running the numbers for a minute, you turn to [[TGT_MW,{TGT_MW.Callsign}]] and shake your head. \"Possible idea doesn't always mean good idea.\"\n\nBoth Yang and {TGT_MW.Callsign} look equally irked.\n\n\"Hold on a second,\" {TGT_MW.Callsign} begins. \"Boss, I,\" Yang starts.\n\nYou raise your hand and both fall silent. \"{TGT_MW.Callsign} - you're not a MechTech. This isn't what you're paid for and, frankly, I'm not sure I'd trust a design like this unless you were certified. Yang - you gotta stop letting every 'rule of cool' idea slide, even when they do have merit. If we start letting every MechWarrior bring in custom parts for their 'Mechs, where does it end?\"\n\nWith a frustrated sigh, {TGT_MW.Callsign} throws up {TGT_MW.Det} hands. \"This is bullshit, Commander!\" {TGT_MW.Subj} {TGT_MW.Gender?NonBinary:snap|Default:snaps}, \"I bust my ass for this company every deployment and you won't even hear me out?\"\n\nYang silently slips back into the MechBays, practically unnoticed amidst the confrontation.\n\n\"If you're going to take that tone, absolutely not, MechWarrior. This is the last I want to hear of it.\" You retort, staring {TGT_MW.Callsign} down. \"I pay you to do one thing, and one thing only, and it is <i>not</i> throwing a tantrum outside the MechBay. Are we clear?\"\n\n\"We're clear, Commander. Message recieved,\" {TGT_MW.Callsign} replies, jaw set like a rock as {TGT_MW.Callsign} {TGT_MW.Gender?NonBinary:storm|Default:storms} away down the hall.",
+            "Icon": null
           },
-          "Weight": 50,
+          "Weight": 75,
           "Results": [
-             {
+            {
               "Scope": "MechWarrior",
               "Requirements": null,
               "AddedTags": {
-                "items": null,
+                "items": [
+                  "pilot_rebellious"
+                ],
                 "tagSetSourceFile": ""
               },
               "RemovedTags": {
@@ -441,7 +490,7 @@
                 "tagSetSourceFile": "Tags/PilotTags"
               },
               "RemovedTags": {
-                "items": null,
+                "items": [],
                 "tagSetSourceFile": ""
               },
               "Stats": null,
@@ -449,22 +498,6 @@
               "ForceEvents": null,
               "TemporaryResult": true,
               "ResultDuration": 90
-            },
-            {
-              "Scope": "MechWarrior",
-              "Requirements": null,
-              "AddedTags": {
-                "items": [
-                  "pilot_rebellious"
-                ],
-                "tagSetSourceFile": "Tags/PilotTags"
-              },
-              "RemovedTags": null,
-              "Stats": null,
-              "Actions": null,
-              "ForceEvents": null,
-              "TemporaryResult": false,
-              "ResultDuration": 0
             },
             {
               "Scope": "Company",
@@ -489,10 +522,27 @@
             }
           ]
         }
-      ]
+      ],
+      "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+          "items": [],
+          "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+          "items": [],
+          "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+      }
     }
   ],
   "PublishState": "PUBLISHED",
   "ValidationState": "UNTESTED",
-  "EventType": "NORMAL"
+  "EventType": "NORMAL",
+  "OneTimeEvent": false,
+  "Tags": {
+    "items": [],
+    "tagSetSourceFile": "tags/EventTags"
+  }
 }
