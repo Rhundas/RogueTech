@@ -20,16 +20,17 @@
       "Path": "sprite"
     },
     {
-      "type": "MechDef",
+      "Type": "MechDef",
       "Path": "mech"
     },
     {
       "Type": "ChassisDef",
       "Path": "chassis"
     },
-    { 	"Type": "SimGameEventDef",
-			"Path": "events",
-			"AddToDB": true
-		}
+    {
+      "Type": "SimGameEventDef",
+      "Path": "events",
+      "AddToDB": true
+    }
   ]
 }

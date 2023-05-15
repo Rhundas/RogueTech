@@ -1,27 +1,33 @@
 {
-    "Name": "RTO Legends Mechs Flashpoint + PirateTech",
-    "Enabled": true,
-    "Version": "0.1.0",
-    "Description": "Contains Flashpoint Units for RTO Legend Pilots + PirateTech",
-    "Author": "Das",
-    "Website": "",
-    "Contact": "no",
-    "DependsOn": [
-      "PirateTech",
-      "Rogue Flashpoint Module",
-      "Roguetech Online Movers & Shakers"
-    ],
-    "ConflictsWith": [],
-    "Manifest": [
-      {
+  "Name": "RTO Legends Mechs Flashpoint + PirateTech",
+  "Enabled": true,
+  "Version": "0.1.0",
+  "Description": "Contains Flashpoint Units for RTO Legend Pilots + PirateTech",
+  "Author": "Das",
+  "Website": "",
+  "Contact": "no",
+  "DependsOn": [
+    "PirateTech",
+    "Rogue Flashpoint Module",
+    "Roguetech Online Movers & Shakers"
+  ],
+  "ConflictsWith": [],
+  "Manifest": [
+    {
       "Type": "MechDef",
       "Path": "mech",
       "RequiredContentPack": "flashpoint"
-      },
-      {
+    },
+    {
       "Type": "ChassisDef",
       "Path": "chassis",
       "RequiredContentPack": "flashpoint"
-      }
-    ]
+    },
+    {
+      "Type": "SimGameEventDef",
+      "Path": "events",
+      "RequiredContentPack": "flashpoint",
+      "AddToDB": true
+    }
+  ]
 }
