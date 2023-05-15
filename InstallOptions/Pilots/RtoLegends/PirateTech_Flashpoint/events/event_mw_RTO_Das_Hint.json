@@ -141,7 +141,7 @@
     {
       "Description": {
         "Id": "outcome_1",
-        "Name": "Say you don't need reminding",
+        "Name": "Say you don't need reminding.",
         "Details": "Mute the hints",
         "Icon": ""
       },
@@ -194,7 +194,7 @@
     {
       "Description": {
         "Id": "outcome_2",
-        "Name": "Tell {TGT_MW.Obj} you're not interested in {TGT_MW.Det} idea.",
+        "Name": "Tell {TGT_MW.Obj} you're not interested in {TGT_MW.Det} ideas.",
         "Details": "[Ends the chain]",
         "Icon": ""
       },
@@ -220,7 +220,7 @@
                 "items": [
                   "pilot_morale_high"
                 ],
-                "tagSetSourceFile": ""
+                "tagSetSourceFile": "Tags/PilotTags"
               },
               "Stats": null,
               "Actions": null,

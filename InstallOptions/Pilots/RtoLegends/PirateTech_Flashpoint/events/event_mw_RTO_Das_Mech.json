@@ -17,7 +17,7 @@
     },
     "ExclusionTags": {
       "items": "pilot_morale_low",
-      "tagSetSourceFile": ""
+      "tagSetSourceFile": "Tags/PilotTags"
     },
     "RequirementComparisons": [
       {
@@ -323,6 +323,173 @@
         },
         "RequirementComparisons": []
       }
+    },
+    {
+      "Description": {
+        "Id": "outcome_2",
+        "Name": "Tell {TGT_MW.Obj} you're not interested in {TGT_MW.Det} ideas.",
+        "Details": "[Ends the chain]",
+        "Icon": ""
+      },
+      "RequirementList": [],
+      "ResultSets": [
+        {
+          "Description": {
+            "Id": "outcome_2_0",
+            "Name": "90 day low spirits",
+            "Details": "This is the text for the event bad end (outcome 2-0)",
+            "Icon": ""
+          },
+          "Weight": 50,
+          "Results": [
+            {
+              "Scope": "MechWarrior",
+              "Requirements": null,
+              "AddedTags": {
+                "items": null,
+                "tagSetSourceFile": ""
+              },
+              "RemovedTags": {
+                "items": [
+                  "pilot_morale_high"
+                ],
+                "tagSetSourceFile": "Tags/PilotTags"
+              },
+              "Stats": null,
+              "Actions": null,
+              "ForceEvents": null,
+              "TemporaryResult": false,
+              "ResultDuration": 0
+            },
+            {
+              "Scope": "MechWarrior",
+              "Requirements": null,
+              "AddedTags": {
+                "items": [
+                  "pilot_morale_low"
+                ],
+                "tagSetSourceFile": ""
+              },
+              "RemovedTags": {
+                "items": null,
+                "tagSetSourceFile": ""
+              },
+              "Stats": null,
+              "Actions": null,
+              "ForceEvents": null,
+              "TemporaryResult": true,
+              "ResultDuration": 90
+            },
+            {
+              "Scope": "Company",
+              "Requirements": null,
+              "AddedTags": {
+                "items": [
+                  "event_RTO_Das_Done"
+                ],
+                "tagSetSourceFile": "Tags/CompanyTags"
+              },
+              "RemovedTags": {
+                "items": [
+                  "event_RTO_Das_ShutUp"
+                ],
+                "tagSetSourceFile": ""
+              },
+              "Stats": null,
+              "Actions": null,
+              "ForceEvents": null,
+              "TemporaryResult": false,
+              "ResultDuration": 0
+            }
+          ]
+        },
+         {
+          "Description": {
+            "Id": "outcome_2_1",
+            "Name": "Rebellious + 90 day low morale",
+            "Details": "This is the text for event bad end (outcome 2-1)",
+            "Icon": ""
+          },
+          "Weight": 50,
+          "Results": [
+             {
+              "Scope": "MechWarrior",
+              "Requirements": null,
+              "AddedTags": {
+                "items": null,
+                "tagSetSourceFile": ""
+              },
+              "RemovedTags": {
+                "items": [
+                  "pilot_morale_high"
+                ],
+                "tagSetSourceFile": ""
+              },
+              "Stats": null,
+              "Actions": null,
+              "ForceEvents": null,
+              "TemporaryResult": false,
+              "ResultDuration": 0
+            },
+            {
+              "Scope": "MechWarrior",
+              "Requirements": null,
+              "AddedTags": {
+                "items": [
+                  "pilot_morale_low"
+                ],
+                "tagSetSourceFile": "Tags/PilotTags"
+              },
+              "RemovedTags": {
+                "items": null,
+                "tagSetSourceFile": ""
+              },
+              "Stats": null,
+              "Actions": null,
+              "ForceEvents": null,
+              "TemporaryResult": true,
+              "ResultDuration": 90
+            },
+            {
+              "Scope": "MechWarrior",
+              "Requirements": null,
+              "AddedTags": {
+                "items": [
+                  "pilot_rebellious"
+                ],
+                "tagSetSourceFile": "Tags/PilotTags"
+              },
+              "RemovedTags": null,
+              "Stats": null,
+              "Actions": null,
+              "ForceEvents": null,
+              "TemporaryResult": false,
+              "ResultDuration": 0
+            },
+            {
+              "Scope": "Company",
+              "Requirements": null,
+              "AddedTags": {
+                "items": [
+                  "event_RTO_Das_Done"
+                ],
+                "tagSetSourceFile": "Tags/CompanyTags"
+              },
+              "RemovedTags": {
+                "items": [
+                  "event_RTO_Das_ShutUp"
+                ],
+                "tagSetSourceFile": ""
+              },
+              "Stats": null,
+              "Actions": null,
+              "ForceEvents": null,
+              "TemporaryResult": false,
+              "ResultDuration": 0
+            }
+          ]
+        }
+      ]
     }
   ],
   "PublishState": "PUBLISHED",
