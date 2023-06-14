@@ -1,0 +1,317 @@
+{
+  "Custom": {
+    "DropCostFactor": {
+      "DropModifier": 1.15
+    },
+    "AssemblyVariant": {
+      "PrefabID": "sorcerer",
+      "Exclude": false,
+      "Include": true
+    },
+    "ChassisDefaults": [
+      {
+        "CategoryID": "Cockpit",
+        "Defaults": [
+          {
+            "Location": "Head",
+            "DefID": "Default_Cockpit_SolarisCage",
+            "Type": "Upgrade"
+          }
+        ]
+      }
+    ],
+    "ChassisCategory": [
+      {
+        "CategoryID": "SpecialMelee",
+        "Limits": [
+          {
+            "Location": "All",
+            "Max": 1
+          },
+          {
+            "Location": "LeftArm",
+            "Min": 1,
+            "Max": 1
+          }
+        ]
+      },
+      {
+        "CategoryID": "SpecialShield",
+        "Limits": [
+          {
+            "Location": "All",
+            "Max": 1
+          },
+          {
+            "Location": "RightArm",
+            "Min": 1,
+            "Max": 1
+          }
+        ]
+      }
+    ],
+    "MultiDefaults": [
+      {
+        "Location": "LeftArm",
+        "DefID": "Default_HandHeld_Melee_Sword_4tons",
+        "ComponentType": "Upgrade",
+        "Categories": [
+          "SpecialMelee",
+          "HandHeld"
+        ]
+      },
+      {
+        "Location": "RightArm",
+        "DefID": "Default_HandHeld_Shield_4tons",
+        "ComponentType": "Upgrade",
+        "Categories": [
+          "SpecialShield",
+          "HandHeld"
+        ]
+      }
+    ]
+  },
+  "CustomParts": {
+    "CustomParts": []
+  },
+  "FixedEquipment": [
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Quirk_Melee_Weapon",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "Description": {
+    "Cost": 2637495,
+    "Rarity": 5,
+    "Purchasable": true,
+    "Manufacturer": "StarCorps Industries",
+    "Model": "",
+    "UIName": "Sorcerer",
+    "Id": "chassisdef_sorcerer_SRC-2L-MW",
+    "Name": "Sorcerer",
+    "Details": "\"Magic Weapon\" is a 2nd-level <i>Transmutation</i> spell. You touch a nonmagical weapon. Until the spell ends, that weapon becomes a 95-ton BattleMech with a 12-ton sword.\n\n<b><color=#e62e00>Quirk: Melee Actuators</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.15</color></b>",
+    "Icon": "uixTxrIcon_sorcerer"
+  },
+  "VariantName": "SRC-2L-MW",
+  "ChassisTags": {
+    "items": [
+      "UniqueMech"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Solaris Gladiator",
+  "YangsThoughts": "\"Magic Weapon\" is a 2nd-level <i>Transmutation</i> spell. You touch a nonmagical weapon. Until the spell ends, that weapon becomes a 95-ton BattleMech with a 12-ton sword.",
+  "MovementCapDefID": "movedef_assaultmech",
+  "PathingCapDefID": "pathingdef_assault",
+  "HardpointDataDefID": "hardpointdatadef_sorcerer",
+  "PrefabIdentifier": "chrprfmech_sorcererbase-001",
+  "PrefabBase": "sorcerer",
+  "Tonnage": 95,
+  "InitialTonnage": 9.5,
+  "weightClass": "ASSAULT",
+  "BattleValue": 9360000,
+  "Heatsinks": 0,
+  "TopSpeed": 105,
+  "TurnRadius": 90,
+  "MaxJumpjets": 20,
+  "Stability": 100,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 1,
+  "Radius": 8,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 48,
+  "MeleeInstability": 24,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 95,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 95,
+  "DFAInstability": 48,
+  "MechPartMax": 0,
+  "MechPartCount": 0,
+  "EngageRangeModifier": 0,
+  "AlwaysPunchIfPossible": false,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 6,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMountID": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "SpecialHandHeld",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 13,
+      "MaxArmor": 160,
+      "MaxRearArmor": -1,
+      "InternalStructure": 80
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMountID": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "Special",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 13,
+      "MaxArmor": 200,
+      "MaxRearArmor": 100,
+      "InternalStructure": 100
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+        {
+          "WeaponMountID": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 13,
+      "MaxArmor": 300,
+      "MaxRearArmor": 150,
+      "InternalStructure": 150
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMountID": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "Special",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 13,
+      "MaxArmor": 200,
+      "MaxRearArmor": 100,
+      "InternalStructure": 100
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMountID": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "SpecialHandHeld",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 13,
+      "MaxArmor": 160,
+      "MaxRearArmor": -1,
+      "InternalStructure": 80
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 6,
+      "MaxArmor": 200,
+      "MaxRearArmor": -1,
+      "InternalStructure": 100
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 6,
+      "MaxArmor": 200,
+      "MaxRearArmor": -1,
+      "InternalStructure": 100
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 17,
+      "z": 0
+    },
+    {
+      "x": 5,
+      "y": 16,
+      "z": -1
+    },
+    {
+      "x": -5,
+      "y": 16,
+      "z": -1
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 17,
+      "z": 0
+    },
+    {
+      "x": 5,
+      "y": 16,
+      "z": -1
+    },
+    {
+      "x": -5,
+      "y": 16,
+      "z": -1
+    },
+    {
+      "x": 3.5,
+      "y": 5.5,
+      "z": 1
+    },
+    {
+      "x": -3.5,
+      "y": 5.5,
+      "z": 1
+    }
+  ]
+}
