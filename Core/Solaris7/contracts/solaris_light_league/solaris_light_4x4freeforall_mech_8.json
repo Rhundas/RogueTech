@@ -3699,8 +3699,7 @@
                 "unit_generic",
                 "unit_nuke",
                 "unit_powerarmor",
-                "unit_protomech",
-                "unit_totem"
+                "unit_protomech"
               ],
               "tagSetSourceFile": "tags/UnitTags"
             },
@@ -3742,8 +3741,7 @@
                 "unit_generic",
                 "unit_nuke",
                 "unit_powerarmor",
-                "unit_protomech",
-                "unit_totem"
+                "unit_protomech"
               ],
               "tagSetSourceFile": "tags/UnitTags"
             },
@@ -3785,8 +3783,7 @@
                 "unit_generic",
                 "unit_nuke",
                 "unit_powerarmor",
-                "unit_protomech",
-                "unit_totem"
+                "unit_protomech"
               ],
               "tagSetSourceFile": "tags/UnitTags"
             },
@@ -3828,8 +3825,7 @@
                 "unit_generic",
                 "unit_nuke",
                 "unit_powerarmor",
-                "unit_protomech",
-                "unit_totem"
+                "unit_protomech"
               ],
               "tagSetSourceFile": "tags/UnitTags"
             },
@@ -5230,8 +5226,7 @@
                 "unit_generic",
                 "unit_nuke",
                 "unit_powerarmor",
-                "unit_protomech",
-                "unit_totem"
+                "unit_protomech"
               ],
               "tagSetSourceFile": "tags/UnitTags"
             },
@@ -5273,8 +5268,7 @@
                 "unit_generic",
                 "unit_nuke",
                 "unit_powerarmor",
-                "unit_protomech",
-                "unit_totem"
+                "unit_protomech"
               ],
               "tagSetSourceFile": "tags/UnitTags"
             },
@@ -5316,8 +5310,7 @@
                 "unit_generic",
                 "unit_nuke",
                 "unit_powerarmor",
-                "unit_protomech",
-                "unit_totem"
+                "unit_protomech"
               ],
               "tagSetSourceFile": "tags/UnitTags"
             },
@@ -5359,8 +5352,7 @@
                 "unit_generic",
                 "unit_nuke",
                 "unit_powerarmor",
-                "unit_protomech",
-                "unit_totem"
+                "unit_protomech"
               ],
               "tagSetSourceFile": "tags/UnitTags"
             },

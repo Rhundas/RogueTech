@@ -396,8 +396,7 @@
             "unitExcludedTagSet": {
               "items": [
                 "unit_generic",
-                "unit_nuke",
-                "unit_totem"
+                "unit_nuke"
               ],
               "tagSetSourceFile": "tags/UnitTags"
             },

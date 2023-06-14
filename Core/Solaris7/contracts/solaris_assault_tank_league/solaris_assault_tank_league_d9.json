@@ -403,8 +403,7 @@
                 "unit_nuke",
                 "unit_mech",
                 "unit_powerarmor",
-                "unit_protomech",
-                "unit_totem"
+                "unit_protomech"
               ],
               "tagSetSourceFile": "tags/UnitTags"
             },
