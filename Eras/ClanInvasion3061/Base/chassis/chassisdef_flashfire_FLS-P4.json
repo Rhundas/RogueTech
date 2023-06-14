@@ -38,14 +38,14 @@
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "Omnitech",
-    "Model": "FLS-P5",
+    "Model": "FLS-P4",
     "UIName": "Flashfire",
-    "Id": "chassisdef_flashfire_FLS-P5",
+    "Id": "chassisdef_flashfire_FLS-P4",
     "Name": "Flashfire",
     "Details": "The <i>Flashfire</i> is a Solaris VII BattleMech produced by Omnitech Industries. Known for its impressive amount of jump distance and its modularity in design, pilots of the <i>Flashfire</i> kept both opponents and the crowds guessing.\n\n<b><color=#e62e00>Quirk: Modular Weapons</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.99</color></b>",
     "Icon": "uixTxrIcon_dervish"
   },
-  "VariantName": "FLS-P5",
+  "VariantName": "FLS-P4",
   "ChassisTags": {
     "items": [
       "ArmLimitLowerLeft",
@@ -54,7 +54,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Striker",
-  "YangsThoughts": "The <i>Flashfire</i> P5 is probably the closest to a \"standard\" configuration as you'll find. Main attractions are the two fluid guns that can be hooked up to whatever it is you feel like dousing opposing gladiators with. Thankfully, the design is crazy modular, so we can do pretty much whatever we want with it.",
+  "YangsThoughts": "The P4 establishes the middle ground for <i>Flashfires</i>. She's got the jump jets from the P5, but she's also got the more conventional loadout of the P2. The whole family's just a plug and play, regardless, so we can fix her up however you want, Boss.",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_dervish",
