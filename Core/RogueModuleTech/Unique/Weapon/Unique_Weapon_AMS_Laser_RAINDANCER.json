@@ -27,7 +27,8 @@
     ],
     "IBLS": {
       "StorageSize": 2
-    }
+    },
+    "Lootable": "Weapon_AMS_Laser"
   },
   "Category": "AntiPersonnel",
   "Type": "Laser",
@@ -83,7 +84,7 @@
   "BonusValueB": "",
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
-  "PrefabIdentifier": "hatchet",
+  "PrefabIdentifier": "ams",
   "BattleValue": 0,
   "InventorySize": 2,
   "Tonnage": 3,
