@@ -1,0 +1,398 @@
+{
+  "MechTags": {
+    "items": [
+      "NOSALVAGE",
+      "unit_advanced",
+      "unit_jumpOK",
+      "unit_release",
+      "unit_mech",
+      "unit_light",
+      "unit_urbie",
+      "unit_totem",
+      "unit_rt_custom",
+      "unit_lance_tank",
+      "unit_unique",
+      "unit_legendary",
+      "unit_bracket_med",
+      "unit_role_brawler",
+      "unit_solaris",
+      "unit_chassis_urbanmech",
+      "unit_tonnage_30",
+      "ai_heat_normal",
+      "ai_dfa_high",
+      "ai_melee_low",
+      "ai_flank_normal",
+      "ai_lance_normal",
+      "ai_lethalself_normal",
+      "ai_move_low",
+      "ai_priority_high",
+      "ai_reserve_high",
+      "ai_shooting_high",
+      "ai_surrounded_normal"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "chassisdef_urbanmech_UM-R6X-TB",
+  "Description": {
+    "Cost": 80168,
+    "Rarity": 0,
+    "Purchasable": true,
+    "Manufacturer": "Solaris Games",
+    "Model": "UM-R6X-TB",
+    "UIName": "UrbanMech UM-R6X 'Tiny Bullet'",
+    "Id": "mechdef_urbanmech_UM-R6X-TB",
+    "Name": "UrbanMech UM-R60",
+    "Details": "Designed for the Solaris Games, the \"Tiny Bullet\" is a popular spectacle in the arena. Something of a FrankenMech, the Bullet features lower arms pilfered from an <i>Anubis</i> to which are attached two three-ton BattleMech lances.\n\n<b><color=#e62e00>Quirk: Reinforced Legs</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.97</color></b>\n\n<br><br><color=#FFEF00>Arm Actuator Limits: Left Upper, Right Upper</color>",
+    "Icon": "uixTxrIcon_urbanmech"
+  },
+  "simGameMechPartCost": 80168,
+  "Locations": [
+    {
+      "Location": "Head",
+      "CurrentArmor": 35,
+      "CurrentRearArmor": 0,
+      "CurrentInternalStructure": 16,
+      "AssignedArmor": 35,
+      "AssignedRearArmor": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "LeftArm",
+      "CurrentArmor": 50,
+      "CurrentRearArmor": 0,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 50,
+      "AssignedRearArmor": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "LeftTorso",
+      "CurrentArmor": 51,
+      "CurrentRearArmor": 20,
+      "CurrentInternalStructure": 35,
+      "AssignedArmor": 51,
+      "AssignedRearArmor": 20,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "CenterTorso",
+      "CurrentArmor": 100,
+      "CurrentRearArmor": 25,
+      "CurrentInternalStructure": 50,
+      "AssignedArmor": 100,
+      "AssignedRearArmor": 25,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "RightTorso",
+      "CurrentArmor": 51,
+      "CurrentRearArmor": 20,
+      "CurrentInternalStructure": 35,
+      "AssignedArmor": 51,
+      "AssignedRearArmor": 20,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "RightArm",
+      "CurrentArmor": 50,
+      "CurrentRearArmor": 0,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 50,
+      "AssignedRearArmor": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "LeftLeg",
+      "CurrentArmor": 70,
+      "CurrentRearArmor": 0,
+      "CurrentInternalStructure": 35,
+      "AssignedArmor": 70,
+      "AssignedRearArmor": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "RightLeg",
+      "CurrentArmor": 70,
+      "CurrentRearArmor": 0,
+      "CurrentInternalStructure": 35,
+      "AssignedArmor": 70,
+      "AssignedRearArmor": 0,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "MountedLocation": "Head",
+      "ComponentDefID": "Gear_FCS_Bloodsports",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Head",
+      "ComponentDefID": "Gear_Cockpit_LifeSupportA_Piloting",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Head",
+      "ComponentDefID": "Gear_Cockpit_LifeSupportB_Piloting",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Head",
+      "ComponentDefID": "Gear_Sensors_Recon",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_Structure_EndoSteel_Clan",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_Armor_Hardened",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_Engine_Light",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Linked_Engine_Size_2",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Linked_Engine_Size_2",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_EngineCore_060",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Lootable_Gyro_Brawler",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_TSM_Industrial",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_HarJel",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_HarJel",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_HarJel",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Special_AddOn_JumpBooster_3",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Special_AddOn_AdvancedOptics_Mk1",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_HarJel",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_PartialWing_IS",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Linked_PartialWing_LTslot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Gear_HarJel",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_Actuator_Leg_DFA_Dmg_PlusPlus",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_Actuator_Leg_DFA_SelfDmg_PlusPlus",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_HarJel",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_Actuator_Leg_DFA_Dmg_PlusPlus",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_Actuator_Leg_DFA_SelfDmg_PlusPlus",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_HarJel",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "HandHeld_Weapon_Lance_3tons",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "HandHeld_Weapon_Lance_3tons",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_HeatSink_Single",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_HeatSink_Single",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_HeatSink_Single",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_HeatSink_Single",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_HeatSink_Single",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_HeatSink_Single",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_HeatSink_Single",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_HeatSink_Single",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_JumpJet_Standard_Improved",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_JumpJet_Standard_Improved",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ]
+}

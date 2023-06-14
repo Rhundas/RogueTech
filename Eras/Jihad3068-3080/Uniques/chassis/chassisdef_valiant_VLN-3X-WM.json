@@ -1,0 +1,281 @@
+{
+  "Custom": {
+    "DropCostFactor": {
+      "DropModifier": 0.99
+    },
+    "AssemblyVariant": {
+      "PrefabID": "valiant",
+      "Exclude": false,
+      "Include": true
+    },
+    "ChassisDefaults": [],
+    "ChassisCategory": [
+      {
+        "CategoryID": "SpecialMelee",
+        "Limits": [
+          {
+            "Location": "All",
+            "Max": 1
+          },
+          {
+            "Location": "LeftArm",
+            "Min": 1,
+            "Max": 1
+          }
+        ]
+      }
+    ],
+    "MultiDefaults": [
+      {
+        "Location": "LeftArm",
+        "DefID": "Default_HandHeld_Melee_Mace_8tons",
+        "ComponentType": "Upgrade",
+        "Categories": [
+          "SpecialMelee",
+          "HandHeld"
+        ]
+      }
+    ]
+  },
+  "CustomParts": {
+    "CustomParts": []
+  },
+  "FixedEquipment": [
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Quirk_Melee_Weapon",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Head",
+      "ComponentDefID": "Unique_Cockpit_Ceres_TSM",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "Description": {
+    "Cost": 401501,
+    "Rarity": 1,
+    "Purchasable": true,
+    "Manufacturer": "VEST",
+    "Model": "VLN-3X",
+    "UIName": "Valiant",
+    "Id": "chassisdef_valiant_VLN-3X-WM",
+    "Name": "Valiant",
+    "Details": "The <i>Valiant</i> 'Whack-A-Mech' is an exceptionally popular sight at the Solaris VII games. Making its debut in the tunnels of Ishiyama in Solaris City, the enigmatic pilot of Whack-A-Mech claims to be one of the only MechWarriors alive to have memorized the entirety of the labyrinth.<b><color=#e62e00>Quirk: Protected Actuators</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.99</color></b>",
+    "Icon": "uixTxrIcon_valiant"
+  },
+  "VariantName": "VLN-3X-WM",
+  "ChassisTags": {
+    "items": [
+      "UniqueMech"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Solaris Gladiator",
+  "YangsThoughts": "This custom Valiant was all the rage on the holo-vids.",
+  "MovementCapDefID": "movedef_lightmech",
+  "PathingCapDefID": "pathingdef_light",
+  "HardpointDataDefID": "hardpointdatadef_valiant",
+  "PrefabIdentifier": "chrprfmech_valiantbase-001",
+  "PrefabBase": "valiant",
+  "Tonnage": 30,
+  "InitialTonnage": 3,
+  "weightClass": "LIGHT",
+  "BattleValue": 1892000,
+  "Heatsinks": 0,
+  "TopSpeed": 85,
+  "TurnRadius": 90,
+  "MaxJumpjets": 20,
+  "Stability": 100,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 1,
+  "Radius": 4,
+  "PunchesWithLeftArm": true,
+  "MeleeDamage": 15,
+  "MeleeInstability": 8,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 30,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 30,
+  "DFAInstability": 15,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [
+        {
+          "WeaponMountID": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 6,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMountID": "SpecialHandHeld",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 13,
+      "MaxArmor": 50,
+      "MaxRearArmor": -1,
+      "InternalStructure": 25
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMountID": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "Special",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 13,
+      "MaxArmor": 70,
+      "MaxRearArmor": 35,
+      "InternalStructure": 35
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+        {
+          "WeaponMountID": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 13,
+      "MaxArmor": 100,
+      "MaxRearArmor": 50,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMountID": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "Special",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 13,
+      "MaxArmor": 70,
+      "MaxRearArmor": 35,
+      "InternalStructure": 35
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMountID": "SpecialHandHeld",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 13,
+      "MaxArmor": 50,
+      "MaxRearArmor": -1,
+      "InternalStructure": 25
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 6,
+      "MaxArmor": 70,
+      "MaxRearArmor": -1,
+      "InternalStructure": 35
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 6,
+      "MaxArmor": 70,
+      "MaxRearArmor": -1,
+      "InternalStructure": 35
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 9.5,
+      "z": 0.5
+    },
+    {
+      "x": -2.5,
+      "y": 8.5,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
+      "y": 8.5,
+      "z": -0.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 9.5,
+      "z": 0.5
+    },
+    {
+      "x": -2.5,
+      "y": 8.5,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
+      "y": 8.5,
+      "z": -0.5
+    },
+    {
+      "x": -1.5,
+      "y": 3,
+      "z": 0.5
+    },
+    {
+      "x": 1.5,
+      "y": 3,
+      "z": 0.5
+    }
+  ]
+}
