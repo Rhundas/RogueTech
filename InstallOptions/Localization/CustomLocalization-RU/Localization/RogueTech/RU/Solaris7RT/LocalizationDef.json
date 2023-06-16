@@ -44678,7 +44678,7 @@
       "processor": "FlashpointShortDescription"
     },
     {
-      "id": "castDef_Anouncer.firstName",
+      "id": "castDef_S7Announcer.firstName",
       "original": "Markus",
       "prevOriginal": "Markus",
       "content": "Markus",
@@ -44686,11 +44686,11 @@
       "systemComment": "",
       "backColor": "",
       "textColor": "",
-      "filename": "castDef_Anouncer",
+      "filename": "castDef_S7Announcer",
       "processor": "firstName"
     },
     {
-      "id": "castDef_Anouncer.lastName",
+      "id": "castDef_S7Announcer.lastName",
       "original": "Wilhelm",
       "prevOriginal": "Wilhelm",
       "content": "Wilhelm",
@@ -44698,19 +44698,55 @@
       "systemComment": "",
       "backColor": "",
       "textColor": "",
-      "filename": "castDef_Anouncer",
+      "filename": "castDef_S7Announcer",
       "processor": "lastName"
     },
     {
-      "id": "castDef_Anouncer.rank",
-      "original": "Anouncer",
-      "prevOriginal": "Anouncer",
-      "content": "Anouncer",
+      "id": "castDef_S7Announcer.rank",
+      "original": "Solaris Games Announcer",
+      "prevOriginal": "Solaris Games Announcer",
+      "content": "Solaris Games Announcer",
       "localizatorComment": "",
       "systemComment": "",
       "backColor": "",
       "textColor": "",
-      "filename": "castDef_Anouncer",
+      "filename": "castDef_S7Announcer",
+      "processor": "rank"
+    },
+    {
+      "id": "castDef_HaretonDefault.firstName",
+      "original": "Hareton",
+      "prevOriginal": "Hareton",
+      "content": "Hareton",
+      "localizatorComment": "",
+      "systemComment": "",
+      "backColor": "",
+      "textColor": "",
+      "filename": "castDef_HaretonDefault",
+      "processor": "firstName"
+    },
+    {
+      "id": "castDef_HaretonDefault.lastName",
+      "original": "Splimby",
+      "prevOriginal": "Splimby",
+      "content": "Splimby",
+      "localizatorComment": "",
+      "systemComment": "",
+      "backColor": "",
+      "textColor": "",
+      "filename": "castDef_HaretonDefault",
+      "processor": "lastName"
+    },
+    {
+      "id": "castDef_HaretonDefault.rank",
+      "original": "Solaris Championship Announcer",
+      "prevOriginal": "Solaris Championship Announcer",
+      "content": "Solaris Championship Announcer",
+      "localizatorComment": "",
+      "systemComment": "",
+      "backColor": "",
+      "textColor": "",
+      "filename": "castDef_HaretonDefault",
       "processor": "rank"
     },
     {
