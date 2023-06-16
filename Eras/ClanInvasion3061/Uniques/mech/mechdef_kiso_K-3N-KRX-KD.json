@@ -212,14 +212,14 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Special_AddOn_BulldozerBlade_9tons",
+      "ComponentDefID": "Lootable_Addon_BulldozerBlade_9ton",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Special_AddOn_BulldozerBlade_9tons",
+      "ComponentDefID": "Lootable_AddOn_BulldozerBlade_9ton",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
