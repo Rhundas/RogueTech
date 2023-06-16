@@ -11,8 +11,8 @@
   "missionSuccessStatementOverride": null,
   "badFaithStatementOverride": null,
   "goodFaithStatementOverride": null,
-  "shortDescription": "Welcome to the Solaris Seasonal Assault 'Mech Championship, Commander {COMMANDER.LastName}! In case you're unfamiliar, this is a standard 64-bracket single elimination tournament. Defeat each opponent to move further up the rankings for fame, fortune, glory, and fame! Just be warned that if you lose a match, you're out. We don't faff around with losers bracket nonsense here.\n\nFor your first match, it looks like we have you penned in with some fellow newcomers in the Tennesee Valley arena. Break a leg!",
-  "longDescription": "I'm still reading through the three-hundred page legal document they sent our way, but so far it all seems reasonable. As for the arena, the Tennesse Valley used to be a wildlife reserve back in the day. Expect mud, and trees.",
+  "shortDescription": "Welcome to the Solaris Seasonal Assault 'Mech Championship, Commander {COMMANDER.LastName}! In case you're unfamiliar, this is a standard 64-bracket single elimination tournament. Defeat each opponent to move further up the rankings for fame, fortune, glory, and fame! Just be warned that if you lose a match, you're out. We don't faff around with losers bracket nonsense here.\n\nFor your first match, it looks like we have you penned in with some fellow newcomers in the Tennessee Valley arena. Break a leg!",
+  "longDescription": "I'm still reading through the three-hundred page legal document they sent our way, but so far it all seems reasonable. As for the arena, the Tennessee Valley used to be a wildlife reserve back in the day. Expect mud, and trees.",
   "salvagePotential": 0,
   "requirementList": [
     {

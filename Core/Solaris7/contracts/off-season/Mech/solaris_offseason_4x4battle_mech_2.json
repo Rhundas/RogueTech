@@ -11,7 +11,7 @@
   "missionSuccessStatementOverride": null,
   "badFaithStatementOverride": null,
   "goodFaithStatementOverride": null,
-  "shortDescription": "Hey, Commander {Commander.LastName}. We just so happen to have a four-man gladiator team who are looking to cut their teeth in some new 'Mechs. Obviously, we can't bang up our own metal - we need that stuff! But you? Well, we can throw a handful of cash at you if you want to step in and help them practice.",
+  "shortDescription": "Hey, Commander {COMMANDER.LastName}. We just so happen to have a four-man gladiator team who are looking to cut their teeth in some new 'Mechs. Obviously, we can't bang up our own metal - we need that stuff! But you? Well, we can throw a handful of cash at you if you want to step in and help them practice.",
   "longDescription": "Not the strangest contract we've been offered, if you can even call it that. Solaris 'Mechs aren't known for their conventional loadouts, Commander, so just keep that in mind.",
   "salvagePotential": 0,
   "requirementList": [
