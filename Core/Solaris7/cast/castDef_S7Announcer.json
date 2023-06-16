@@ -1,21 +1,21 @@
 {
-  "id": "castDef_Anouncer",
-  "internalName": "SolarisAnouncer",
+  "id": "castDef_S7Announcer",
+  "internalName": "SolarisAnnouncer",
   "firstName": "Markus",
   "lastName": "Wilhelm",
   "callsign": "",
-  "rank": "Anouncer",
+  "rank": "Solaris Games Announcer",
   "gender": "Male",
   "factionID": "Solaris7",
   "sgCharType": "UNSET",
   "showRank": true,
-  "showFirstName": false,
+  "showFirstName": true,
   "showCallsign": false,
-  "showLastName": false,
+  "showLastName": true,
   "localizeName": true,
   "defaultEmotePortrait": {
     "emote": "Default",
-    "portraitAssetPath": "../../Mods/Core/Solaris7/portraits/anouncer.png"
+    "portraitAssetPath": "../../Mods/Core/Solaris7/portraits/announcer.png"
   },
   "emotePotraitList": []
 }
