@@ -265,6 +265,31 @@
   "travelOnly": false,
   "useTravelCostPenalty": false,
   "usesExpiration": false,
+  "UniversalContractEffects": [
+    {
+      "durationData": {},
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "Contract_NoEject",
+        "Name": "Ejection Disabled",
+        "Details": "MechWarrior ejection systems are disabled for this contract.",
+        "Icon": "uixSvgIcon_equipment_Cockpit"
+      },
+      "statisticData": {
+        "statName": "CanEject",
+        "operation": "Set",
+        "modValue": "false",
+        "modType": "System.Boolean",
+        "targetCollection": "Pilot"
+      },
+      "nature": "Buff"
+    }
+  ],
   "expirationTimeOverride": -1,
   "negotiatedSalary": 1,
   "negotiatedSalvage": 0,
